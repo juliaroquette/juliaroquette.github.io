@@ -10,7 +10,7 @@ $(document).ready(function() { //things starting with $ are jquery
                             pagination: false      
                           });
   var typed= new Typed(".typed", {
-      strings: ["astrophysicist.","PhD.","Physicist.","Data Analyst."],
+      strings: ["Astrophysicist.","PhD.","Cheese Maker.","Cyclist."],
       typeSpeed: 70,
       loop: true,
       start: 1000,
