@@ -31,9 +31,9 @@ $(document).ready(function() { //things starting with $ are jquery
           768:{
               items:3
           },
-        //  938:{
-        //      items: 4
-        //  },
+          938:{
+              items: 4
+          },
       }
   })
   
