@@ -36,7 +36,10 @@ $(document).ready(function() { //things starting with $ are jquery
           },
       }
   })
-  
+ $(document).ready(function() { //things starting with $ are jquery
+  $('#fixedsldes').superslides({play: false,
+                            pagination: false      
+                          }); })
  
   var skillsTopOffset = $(".skillsSection").offset().top;
   var statsTopOffset = $(".statsSection").offset().top;
