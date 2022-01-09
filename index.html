@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <!For adding a map with places>
+  <link rel="stylesheet" href="css/leaflet.css">
+  <script src="js/leaflet.js"></script>
 </head>
 <body>
 
@@ -188,15 +191,51 @@
 	   helped Ride On to establish and run the 
 	   <a href="https://www.rideoncycling.org/community/#womnsworkshop">Wom+n's Workshop</a>, a women-
 	   led weekly bike-mechanics course dedicated to empowering women by teaching them how to fix and 
-	   maintain their own bikes. In January 2022, I was interviewed by the 
+	   maintain their own bikes. In December 2021, I was interviewed by the 
 	   <a href="https://issuu.com/mediaclash/docs/el291_final">Exeter Living Magazine</a> about
-	   the project, <a href"">check it out!</a> You can learn more about my bike-related activities
+	   the project, <a href="img/ExeterLivingInterview_Jan2022.png">check it out!</a> You can learn more about my bike-related activities
 	   on the <a href="">bike adventure</a> page.
          </p>
        </div>
        <div class="col-md-3">
          <img class="aboutImage" src="img/RideOn.jpeg">
        </div>
+     </div>
+
+     <div class="row">
+     <h5>Places I lived/worked:</h5>
+
+     <div id="map" style="width: 600px; height: 400px;">Places I have worked and/or lived</div>
+     <script>
+       var map = L.map('map', {
+       center: [0, 0],
+		minZoom: 2.1,
+		maxZoom: 10,
+		zoomOffset: 10
+	});
+
+	var cartodbAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution">CARTO</a>';
+
+	var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+		attribution: cartodbAttribution
+	}).addTo(map);
+
+	map.setView([-30, -20], 00);
+
+  
+	var marker = L.marker([50.7366, 3.5350]).addTo(map)
+		     .bindPopup('<b>University of Exeter</b><br /> AWESoMeStars project <br /> June 2018 - Dec 2021').openPopup();	 
+	var marker = L.marker([45.19441817089645, 5.761582840738526]).addTo(map)
+		     .bindPopup('<b>Institut de Planetologie et d\' Astrophysique de Grenoble</b><br /> PhD Internship <br /> April 2015 - April 2016').openPopup();	     	   var marker = L.marker([-19.86947782752929, -43.96489201005581]).addTo(map)
+		     .bindPopup('<b>Federal University of Minas Gerais</b><br /> PhD, Master\'s and Bachelor\'s <br .> Until April 2015').openPopup();	
+	var marker = L.marker([29.9012, -81.3124]).addTo(map)
+		.bindPopup('<b>Work and Learn English Internship</b><br /> Dec 2009 - March 2010').openPopup();
+	var marker = L.marker([-10.9264, -37.1026]).addTo(map)
+		.bindPopup('<b>Federal University of Sergipe</b><br /> November 2017 to April 2018').openPopup();	 
+	var marker = L.marker([46.3083, 6.1342]).addTo(map)
+		     .bindPopup('<b>Observatoire de Geneve</b><br /> NEMESIS project <br /> December 2021 - now').openPopup();	   
+     </script>
+     </div>
      </div>
    </div>
  </div >
