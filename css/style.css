@@ -1,4 +1,5 @@
 body{
+  font-family: "Roboto",sans-serif;
   font-size: 14px;
   color: #333;
   background-color: #fff;
@@ -173,10 +174,14 @@ body{
 }
 
 #navigation {
-  background-color:#e74c3c;
-  padding:20px 10px;
-  z-index:10000;
+  position: absolute;
+  left: 0px;
+  height: 40px;
+  background-color:#fff;
+  padding:10px 10px;
+  z-index:1000000;
   width: 100%;
+  margin: 0 auto;
 }
 
 #navigation li{
@@ -184,11 +189,13 @@ body{
 }
 
 #navigation li a{
-  color: #fff;
+  color: #b20404;
+  background-color:#fff;
 }
 
 .navbar-brand,.navbar-brand:hover{
-  color:#fff;
+  color:#b20404;
+  background-color:#fff;
 }
 .navbar-toggler-icon {
 	background:url(../img/icons/menu.png);
@@ -215,3 +222,27 @@ body{
     background:url(../img/icons/me.gif) center center no-repeat;
 }
 #map { height: 180px; }
+
+a:link {
+  color:#b20404;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b20404;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #b20404;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #b20404;
+  background-color: transparent;
+  text-decoration: underline;
+}
