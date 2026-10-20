@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comics | Julia Roquette</title>
+    <meta name="description" content="Science cartoons by Julia Roquette explaining how young stars and their disks form and evolve.">
+    <link rel="icon" type="image/png" href="img/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-PPIZEGYM1v8zp5Py7UjFb79S58UeqCL9pYVnVPURKEqvioPROaVAJKKLzvH2rDnI" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="loader"><div class="inner"></div></div>
+
+    <header>
+      <div class="site-head">
+        <h1>
+          <span class="font-weight-light">Julia </span><span class="font-weight-bold">Roquette</span>
+          <span class="tagline">//data scientist: stars &amp; wine</span>
+        </h1>
+      </div>
+      <nav id="navigation" class="navbar navbar-light navbar-expand-sm">
+        <div class="container justify-content-center">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/cartoon_me.png" alt="Home" height="28" width="28">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav text-center">
+              <!-- Bio is hidden for now (kept locally, see .gitignore):
+              <li class="nav-item"><a class="nav-link" href="about.html">Bio</a></li>
+              -->
+              <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+              <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+              <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+              <li class="nav-item active"><a class="nav-link" href="comics.html" aria-current="page">Comics</a></li>
+              <li class="nav-item"><a class="nav-link" href="mailto:julia.roquette@unige.ch" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" rel="noopener" href="https://github.com/juliaroquette/" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h2 class="page-title font-weight-light">Comics</h2>
+        <p class="page-lead">
+          I love sequential art, and I sometimes draw cartoons to explain my
+          research. These ones, drawn for the
+          <a href="https://nemesis.univie.ac.at/">NEMESIS</a> project, show how
+          young stars and their disks form and evolve. Click on any of them to
+          see it in full size. If you would like to use one, please get in touch.
+        </p>
+        <section class="comic-group" id="life-of-a-star">
+          <h2>The life of a young star</h2>
+          <p>From a dense prestellar core to a young planetary system, with the typical size, temperature, age and spectral energy distribution (SED) at each stage.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <button type="button" class="comic-card" data-large="img/comics/web/StarFormationCartoon_basic.jpg" data-full="img/comics/StarFormationCartoon_basic.png" data-title="The stages of star formation">
+                <img src="img/comics/web/StarFormationCartoon_basic_thumb.jpg" width="720" height="301" loading="lazy" alt="Cartoon: The stages of star formation">
+                <div class="caption"><b>The stages of star formation</b><span>Prestellar core, protostars, accreting and non-accreting pre-main-sequence stars, and a young planetary system.</span></div>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <button type="button" class="comic-card" data-large="img/comics/web/StarFormationCartoon_inclination.jpg" data-full="img/comics/StarFormationCartoon_inclination.png" data-title="...seen at different inclinations">
+                <img src="img/comics/web/StarFormationCartoon_inclination_thumb.jpg" width="720" height="297" loading="lazy" alt="Cartoon: ...seen at different inclinations">
+                <div class="caption"><b>...seen at different inclinations</b><span>The same sequence, showing how a protostar's SED changes between face-on and edge-on views.</span></div>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <button type="button" class="comic-card" data-large="img/comics/web/StarFormationCartoon_withPhotometricBands.jpg" data-full="img/comics/StarFormationCartoon_withPhotometricBands.png" data-title="...with photometric bands">
+                <img src="img/comics/web/StarFormationCartoon_withPhotometricBands_thumb.jpg" width="720" height="297" loading="lazy" alt="Cartoon: ...with photometric bands">
+                <div class="caption"><b>...with photometric bands</b><span>The same sequence, with the wavelengths covered by Cousins, 2MASS, WISE, Spitzer and Herschel.</span></div>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <button type="button" class="comic-card" data-large="img/comics/web/StarFormationCartoon_ClassNames_withPhotometricBands.jpg" data-full="img/comics/StarFormationCartoon_ClassNames_withPhotometricBands.png" data-title="...with observational classes">
+                <img src="img/comics/web/StarFormationCartoon_ClassNames_withPhotometricBands_thumb.jpg" width="720" height="303" loading="lazy" alt="Cartoon: ...with observational classes">
+                <div class="caption"><b>...with observational classes</b><span>Each stage labelled with its observational class (Class 0 to Class III) and the photometric bands that trace it.</span></div>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="comic-group" id="classes">
+          <h2>Classes 0 to III</h2>
+          <p>The four observational classes of young stellar objects, from embedded protostars to diskless young stars.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <button type="button" class="comic-card" data-large="img/comics/web/StarFormationCartoon_Class0toIII.jpg" data-full="img/comics/StarFormationCartoon_Class0toIII.png" data-title="Class 0 to Class III">
+                <img src="img/comics/web/StarFormationCartoon_Class0toIII_thumb.jpg" width="720" height="409" loading="lazy" alt="Cartoon: Class 0 to Class III">
+                <div class="caption"><b>Class 0 to Class III</b><span>Envelope, disk and outflow at each class, with the matching SED.</span></div>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <button type="button" class="comic-card" data-large="img/comics/web/StarFormationCartoon_Class0toIII_withinclination.jpg" data-full="img/comics/StarFormationCartoon_Class0toIII_withinclination.png" data-title="...seen at different inclinations">
+                <img src="img/comics/web/StarFormationCartoon_Class0toIII_withinclination_thumb.jpg" width="720" height="425" loading="lazy" alt="Cartoon: ...seen at different inclinations">
+                <div class="caption"><b>...seen at different inclinations</b><span>How viewing angle changes the SED of each class.</span></div>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <button type="button" class="comic-card" data-large="img/comics/web/StarFormationCartoon_Class0toIII_withPhotometricBands.jpg" data-full="img/comics/StarFormationCartoon_Class0toIII_withPhotometricBands.png" data-title="...with photometric bands">
+                <img src="img/comics/web/StarFormationCartoon_Class0toIII_withPhotometricBands_thumb.jpg" width="720" height="407" loading="lazy" alt="Cartoon: ...with photometric bands">
+                <div class="caption"><b>...with photometric bands</b><span>The classes with the wavelength coverage of the main photometric surveys.</span></div>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="comic-group" id="classification">
+          <h2>Classifying young stars</h2>
+          <p>How astronomers sort young stars using the slope of their infrared SED.</p>
+          <div class="row">
+            <div class="col-lg-8">
+              <button type="button" class="comic-card" data-large="img/comics/web/StandardClassificationScheme.jpg" data-full="img/comics/StandardClassificationScheme.png" data-title="YSO classification schemes">
+                <img src="img/comics/web/StandardClassificationScheme_thumb.jpg" width="720" height="432" loading="lazy" alt="Cartoon: YSO classification schemes">
+                <div class="caption"><b>YSO classification schemes</b><span>The Lada (1987) scheme compared with the modern standard scheme, and why inclination matters.</span></div>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="comic-group" id="disks">
+          <h2>Disks with holes</h2>
+          <p>What full, pre-transition and transition disks look like, and how their gaps show up in the SED.</p>
+          <div class="row">
+            <div class="col-lg-8">
+              <button type="button" class="comic-card" data-large="img/comics/web/TranisitionDisk_.jpg" data-full="img/comics/TranisitionDisk_.png" data-title="Full, pre-transition and transition disks">
+                <img src="img/comics/web/TranisitionDisk__thumb.jpg" width="720" height="462" loading="lazy" alt="Cartoon: Full, pre-transition and transition disks">
+                <div class="caption"><b>Full, pre-transition and transition disks</b><span>Face-on and edge-on views with their SEDs: cavities and gaps carved by forming planets.</span></div>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <dialog id="lightbox" class="lightbox" aria-label="Comic in full size">
+      <img src="" alt="">
+      <div class="lightbox-bar">
+        <span class="lightbox-title"></span>
+        <span>
+          <a class="lightbox-full" href="#" target="_blank" rel="noopener">Full resolution <i class="fas fa-up-right-from-square"></i></a>
+          &nbsp;<button type="button" class="lightbox-close">Close</button>
+        </span>
+      </div>
+    </dialog>
+
+    <footer class="bottomSection">
+      <p>Last updated: 20 October 2026 &nbsp;-&nbsp; &copy; Julia Roquette</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

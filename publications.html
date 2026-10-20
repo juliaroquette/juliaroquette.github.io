@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publications | Julia Roquette</title>
+    <meta name="description" content="Publication list of Julia Roquette, generated from her NASA/ADS library.">
+    <link rel="icon" type="image/png" href="img/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-PPIZEGYM1v8zp5Py7UjFb79S58UeqCL9pYVnVPURKEqvioPROaVAJKKLzvH2rDnI" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="loader"><div class="inner"></div></div>
+
+    <header>
+      <div class="site-head">
+        <h1>
+          <span class="font-weight-light">Julia </span><span class="font-weight-bold">Roquette</span>
+          <span class="tagline">//data scientist: stars &amp; wine</span>
+        </h1>
+      </div>
+      <nav id="navigation" class="navbar navbar-light navbar-expand-sm">
+        <div class="container justify-content-center">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/cartoon_me.png" alt="Home" height="28" width="28">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav text-center">
+              <!-- Bio is hidden for now (kept locally, see .gitignore):
+              <li class="nav-item"><a class="nav-link" href="about.html">Bio</a></li>
+              -->
+              <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+              <li class="nav-item active"><a class="nav-link" href="publications.html" aria-current="page">Publications</a></li>
+              <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+              <li class="nav-item"><a class="nav-link" href="comics.html">Comics</a></li>
+              <li class="nav-item"><a class="nav-link" href="mailto:julia.roquette@unige.ch" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" rel="noopener" href="https://github.com/juliaroquette/" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h2 class="page-title font-weight-light">Publications</h2>
+        <p class="page-lead" id="pub-summary">
+          My publications, from my
+          <a href="https://ui.adsabs.harvard.edu/public-libraries/8JBeznfWQmWUeiV-poEimw">NASA/ADS library</a>.
+        </p>
+
+        <section id="selected" class="mb-5">
+          <h3 class="pub-section-title">Selected publications</h3>
+          <div id="pub-selected"></div>
+        </section>
+
+        <h3 class="pub-section-title">All publications</h3>
+        <div class="pub-controls">
+          <div class="pub-filters" role="group" aria-label="Filter publications">
+            <button type="button" class="pub-filter active" data-filter="all">All</button>
+            <button type="button" class="pub-filter" data-filter="refereed">Refereed</button>
+            <button type="button" class="pub-filter" data-filter="first">First author</button>
+          </div>
+          <input type="search" id="pub-search" class="form-control" placeholder="Search titles, authors, journals" aria-label="Search publications">
+        </div>
+
+        <div id="pub-list" aria-live="polite">
+          <noscript>
+            <p>This list needs JavaScript. You can also browse it on
+            <a href="https://ui.adsabs.harvard.edu/public-libraries/8JBeznfWQmWUeiV-poEimw">NASA/ADS</a>.</p>
+          </noscript>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bottomSection">
+      <p>Last updated: 20 October 2026 &nbsp;-&nbsp; &copy; Julia Roquette</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="data/publications.js"></script>
+    <script src="js/publications.js"></script>
+  </body>
+</html>

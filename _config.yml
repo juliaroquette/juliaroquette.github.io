@@ -1,0 +1,13 @@
+# Settings for GitHub Pages (Jekyll), which builds this site.
+#
+# Files listed under "exclude" stay in the repository but are not published.
+# The Bio page and the full Research draft are kept locally only for now (see
+# .gitignore); they are also excluded here as a safety net. research.html is a
+# placeholder until the draft is ready: then copy research_draft.html over it.
+# To bring Bio back, delete its lines here and in .gitignore, and uncomment
+# the "Bio" menu item in the other pages.
+exclude:
+  - about.html
+  - research_draft.html
+  # helper code, not part of the website
+  - scripts/

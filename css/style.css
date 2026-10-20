@@ -1,0 +1,434 @@
+/* ---------------------------------------------------------------
+   juliaroquette.com
+   --------------------------------------------------------------- */
+:root {
+  --accent: #b20404;
+  --accent-soft: #fbeaea;
+  --wine: #b20404;
+  --wine-soft: #fbeaea;
+  --astro: #111;
+  --astro-soft: #f1f1f1;
+  --text: #333;
+  --muted: #6c757d;
+  --rule: #e5e5e5;
+  --mono: "Roboto Mono", SFMono-Regular, Menlo, monospace;
+}
+
+html { scroll-padding-top: 70px; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: #fff;
+  letter-spacing: 0.3px;
+}
+
+p { text-align: justify; }
+img { max-width: 100%; height: auto; }
+
+/* ---------- links ---------- */
+a, a:link, a:visited { color: var(--accent); text-decoration: none; }
+a:hover, a:focus, a:active { color: var(--accent); text-decoration: underline; }
+
+/* ---------- header & navigation ---------- */
+.site-head { text-align: center; padding-top: 28px; }
+.site-head h1 { font-size: 4em; margin-bottom: 0; line-height: 1.1; }
+.site-head .tagline {
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+#navigation {
+  background-color: #fff;
+  padding: 6px 10px;
+  z-index: 1030;
+  width: 100%;
+}
+#navigation .nav-link { color: var(--accent); padding: 0.4rem 0.8rem; }
+#navigation .nav-item.active .nav-link { font-weight: 700; }
+#navigation .navbar-toggler { border-color: var(--rule); }
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- page loader ---------- */
+.loader {
+  position: fixed;
+  inset: 0;
+  background-color: #fff;
+  z-index: 2000;
+}
+.loader .inner {
+  width: 100%;
+  height: 100%;
+  background: url(../img/icons/me_loading.gif) center center no-repeat;
+  background-size: 100px auto;
+}
+
+/* Keep pages a bit narrower than Bootstrap's default (1140px) on large
+   screens, so lines of text stay comfortable to read. */
+@media (min-width: 1200px) {
+  .container { max-width: 960px; }
+}
+
+/* ---------- sections ---------- */
+.section { padding: 50px 0 70px; }
+.section + .section { padding-top: 0; }
+.page-title { text-align: center; margin-bottom: 8px; }
+.page-lead { text-align: center; color: var(--muted); max-width: 720px; margin: 0 auto 36px; }
+.photo-credit { font-family: var(--mono); font-size: x-small; text-align: left; color: var(--muted); }
+.aboutImage { max-width: 100%; border-radius: 2px; }
+hr { margin: 2rem 0; }
+
+h2.section-heading {
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 48px 0 6px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid currentColor;
+}
+h2.section-heading .mono { font-family: var(--mono); font-size: 0.9rem; letter-spacing: 0; }
+.astro-heading { color: var(--astro); }
+.wine-heading  { color: var(--wine); }
+
+/* ---------- research: two-track chooser ---------- */
+.track-cards { margin-bottom: 12px; }
+.track-card {
+  --c: var(--accent);
+  --c-soft: var(--accent-soft);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 22px 24px;
+  text-align: left;
+  color: var(--text);
+  background: var(--c-soft);
+  border: none;
+  border-left: 5px solid var(--c);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.2s ease, color 0.2s ease;
+}
+.track-card.wine  { --c: var(--wine);  --c-soft: var(--wine-soft); }
+.track-card.astro { --c: var(--astro); --c-soft: var(--astro-soft); }
+.track-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); }
+.track-card:focus-visible { outline: 3px solid var(--c); outline-offset: 3px; }
+.track-card h3 { font-size: 1.35rem; margin-bottom: 6px; color: var(--c); }
+.track-card p { margin: 0; text-align: left; }
+.track-card .track-toggle {
+  margin-top: auto;
+  padding-top: 12px;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0;
+  color: var(--c);
+}
+.track-card .track-toggle i { transition: transform 0.2s ease; }
+/* the selected box is filled with its colour */
+.track-card[aria-expanded="true"] { background: var(--c); color: #fff; }
+.track-card[aria-expanded="true"] h3,
+.track-card[aria-expanded="true"] .track-toggle { color: #fff; }
+.track-card[aria-expanded="true"] .track-toggle i { transform: rotate(180deg); }
+.track-card[aria-expanded="true"] .todo { color: var(--text); }
+.track-hint { text-align: center; color: var(--muted); font-size: 0.85rem; }
+
+/* With JavaScript, a research track is only shown once its box is clicked.
+   Without it, both tracks stay visible. */
+.js .research-track:not(.open) { display: none; }
+.js .track-cards ~ .track-hint { display: block; }
+.track-hint { display: none; }
+.research-track.open { animation: track-in 0.25s ease; }
+@keyframes track-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .research-track.open { animation: none; }
+  .track-card { transition: none; }
+}
+
+/* placeholder shown while a research section is being written */
+.under-construction {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 24px 0;
+  padding: 18px 22px;
+  border: 1px dashed var(--rule);
+  border-radius: 4px;
+  color: var(--muted);
+}
+.under-construction i { font-size: 1.8rem; color: var(--accent); }
+.astro-heading + .under-construction i { color: var(--astro); }
+.under-construction p { margin: 0; text-align: left; }
+
+/* ---------- research highlights ---------- */
+.highlight {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.highlight:last-child { border-bottom: none; }
+.highlight h3 { font-size: 1.3rem; margin-bottom: 4px; }
+.highlight .meta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 12px;
+  letter-spacing: 0;
+}
+.highlight figure { margin: 0; }
+.highlight figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 6px; text-align: left; }
+.highlight ul.papers { padding-left: 1.1rem; font-size: 0.9rem; }
+.highlight ul.papers li { margin-bottom: 4px; }
+
+.stat-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 14px 0; }
+.stat {
+  flex: 1 1 120px;
+  padding: 10px 14px;
+  background: var(--astro-soft);
+  border-radius: 4px;
+}
+.stat b { display: block; font-size: 1.4rem; color: var(--astro); font-weight: 500; line-height: 1.2; }
+.stat span { font-size: 0.78rem; color: var(--muted); }
+
+/* Text Julia still needs to fill in. Highly visible on purpose. */
+.todo {
+  background: #fff3bf;
+  outline: 1px dashed #d4a017;
+  padding: 0 3px;
+}
+
+/* ---------- publications list on the home page ---------- */
+ul.pub-list li { margin-bottom: 8px; }
+
+/* ---------- publications page ---------- */
+.pub-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.pub-filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.pub-filter {
+  border: 1px solid var(--rule);
+  background: #fff;
+  color: var(--accent);
+  border-radius: 3px;
+  padding: 5px 14px;
+}
+.pub-filter:hover { border-color: var(--accent); }
+.pub-filter.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+#pub-search { max-width: 320px; }
+.pub-year {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin: 32px 0 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--rule);
+}
+ol.pub-group { list-style: none; padding: 0; margin: 0; }
+li.pub { padding: 12px 0; border-bottom: 1px dotted var(--rule); }
+li.pub:last-child { border-bottom: none; }
+.pub-title { font-weight: 500; font-size: 1rem; }
+.pub-title a, .pub-title a:visited { color: var(--text); }
+.pub-title a:hover { color: var(--accent); }
+.pub-authors { font-size: 0.9rem; }
+.pub-authors .me { color: var(--accent); }
+.pub-authors .etal { color: var(--muted); }
+.pub-ref { font-size: 0.85rem; color: var(--muted); }
+.pub-links { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0; margin-left: 6px; }
+.pub-links .cites { color: var(--muted); }
+.pub-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0 6px;
+  border-radius: 3px;
+  vertical-align: 2px;
+  background: var(--astro-soft);
+  color: var(--astro);
+}
+.pub-badge.first { background: var(--accent-soft); color: var(--accent); }
+
+/* selected publications (badge + buttons) */
+.pub-section-title {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: 8px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+}
+ol.sel-list { list-style: none; padding: 0; margin: 0; }
+li.sel-pub {
+  display: flex;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px dotted var(--rule);
+}
+li.sel-pub:last-child { border-bottom: none; }
+.sel-badge { flex: 0 0 76px; text-align: center; }
+.sel-year { display: block; margin-top: 4px; font-family: var(--mono); font-size: 0.75rem; color: var(--muted); }
+.sel-body { flex: 1; min-width: 0; }
+.journal-badge {
+  display: block;
+  padding: 3px 4px;
+  border-radius: 3px;
+  background: var(--muted);
+  color: #fff;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.journal-badge.aa    { background: var(--accent); }
+.journal-badge.mnras { background: #111; }
+.journal-badge.apj   { background: #555; }
+.journal-badge.arxiv { background: #888; }
+.pub-buttons { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+.pub-btn, a.pub-btn, a.pub-btn:visited {
+  display: inline-block;
+  padding: 1px 10px;
+  border: 1px solid var(--text);
+  border-radius: 3px;
+  background: #fff;
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.pub-btn:hover, a.pub-btn:hover,
+.pub-btn[aria-expanded="true"] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+.pub-abstract {
+  margin: 10px 0 0;
+  padding: 10px 14px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  font-size: 0.88rem;
+}
+.cites { color: var(--muted); }
+@media (max-width: 575.98px) {
+  li.sel-pub { gap: 12px; }
+  .sel-badge { flex-basis: 58px; }
+}
+
+/* ---------- CV page ---------- */
+.cv-intro { text-align: center; color: var(--muted); margin-bottom: 8px; }
+.cv-section { margin-top: 40px; }
+.cv-section > h3 {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+}
+.cv-section > h3 .first { color: var(--accent); }
+ul.cv-list { list-style: none; padding: 0; margin: 0; }
+ul.cv-list > li {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 4px 20px;
+  padding: 10px 0;
+  border-bottom: 1px dotted var(--rule);
+}
+ul.cv-list > li:last-child { border-bottom: none; }
+.cv-date { font-family: var(--mono); font-size: 0.82rem; color: var(--accent); letter-spacing: 0; padding-top: 2px; }
+.cv-what { font-weight: 500; }
+.cv-where { color: var(--muted); }
+.cv-detail { font-size: 0.9rem; margin-top: 2px; }
+.cv-detail ul { padding-left: 1.1rem; margin: 4px 0 0; }
+.cv-skills dt { font-weight: 500; color: var(--accent); }
+.cv-skills dd { margin-bottom: 10px; }
+@media (max-width: 575.98px) {
+  ul.cv-list > li { grid-template-columns: 1fr; gap: 0; }
+}
+
+/* ---------- comics gallery ---------- */
+.comic-group { margin-bottom: 48px; }
+.comic-group h2 { font-weight: 300; font-size: 1.6rem; margin-bottom: 4px; }
+.comic-group > p { color: var(--muted); }
+.comic-card {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 30px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+  text-align: left;
+  cursor: zoom-in;
+  transition: box-shadow 0.15s ease;
+}
+.comic-card:hover, .comic-card:focus { box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12); outline: none; }
+.comic-card img { display: block; width: 100%; }
+.comic-card .caption { padding: 10px 14px 12px; border-top: 1px solid var(--rule); }
+.comic-card .caption b { display: block; color: var(--text); }
+.comic-card .caption span { font-size: 0.82rem; color: var(--muted); }
+
+/* lightbox (native <dialog>) */
+dialog.lightbox {
+  width: min(96vw, 1800px);
+  max-width: none;
+  max-height: 96vh;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  overflow: auto;
+}
+dialog.lightbox::backdrop { background: rgba(0, 0, 0, 0.8); }
+dialog.lightbox img { display: block; width: 100%; height: auto; }
+dialog.lightbox .lightbox-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+dialog.lightbox .lightbox-bar button {
+  border: 1px solid var(--rule);
+  background: #fff;
+  border-radius: 3px;
+  padding: 2px 12px;
+}
+
+/* ---------- map ---------- */
+#map { width: 100%; height: 420px; border-radius: 4px; }
+
+/* ---------- footer ---------- */
+.bottomSection {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+  text-align: center;
+}
+.bottomSection p { margin: 0; text-align: center; }
+.bottomSection a, .bottomSection a:visited { color: #fff; }
+
+/* ---------- small screens ---------- */
+@media (max-width: 575.98px) {
+  .site-head h1 { font-size: 2.6em; }
+  .site-head .tagline { display: block; margin-top: 4px; font-size: 0.85rem; }
+  h2.section-heading .mono { display: block; margin-top: 4px; }
+  p { text-align: left; }
+  .section { padding: 30px 0 50px; }
+}

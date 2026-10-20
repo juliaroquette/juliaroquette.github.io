@@ -1,0 +1,12 @@
+.DS_Store
+*.swp
+__pycache__/
+.claude/
+
+# Drafts kept locally only for now, not part of the site:
+# the Bio page and the full Research page (research.html is a placeholder).
+# To publish them, delete these lines and the matching ones in _config.yml.
+about.html
+research_draft.html
+img/web/ObservatoireDeGeneve.jpg
+img/web/CygOB2_FUVmap.png
