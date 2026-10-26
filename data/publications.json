@@ -1,6 +1,6 @@
 {
  "source": "https://ui.adsabs.harvard.edu/public-libraries/8JBeznfWQmWUeiV-poEimw",
- "updated": "2026-10-20",
+ "updated": "2026-10-26",
  "papers": [
   {
    "bibcode": "2026arXiv260931109M",
@@ -23,7 +23,8 @@
    "arxiv": "2609.31109",
    "doctype": "eprint",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "In modern large-scale surveys, young stellar objects (YSOs) are mostly identified by the infrared excess in their spectral energy distributions (SEDs). To this end, YSO identification and classification were mostly based on certain colours, resulting in wavelength-specific methods. Using all available data allows us to construct a uniformly classified YSO catalogue by applying the same identification method to heterogeneous samples, reducing systematic differences and enabling more consistent studies of YSO populations and star formation. Our goal is to develop a method that takes advantage of the heterogeneous data available in the VizieR database and to provide a tool that can be used to identify YSOs with high accuracy. We also aim to create the largest homogeneous catalogue of YSOs. We use the CDS VizieR and NASA/IPAC IRSA to collect data for a large number of objects of various types. The data collected included SEDs, light curves, and direct imaging and were used to build different image representations. These were used to teach deep learning algorithms to differentiate between YSOs and all other types of sources. Architectures from the PyTorch library and custom-built convolutional neural networks were applied to create an ensemble of binary classifiers specialised at identifying YSOs. The resulting method is able to automatically identify YSO candidates with an accuracy higher than 90\\% while contamination is identified with an accuracy higher than 99\\%. We applied our classifier to numerous YSO catalogues to confirm the youth of the stars and to create the largest catalogue of homogeneously identified potential YSOs ever -- the NEMESIS General YSO catalogue contains 274\\,408 unique, high reliability YSOs. Their positions on the colour-magnitude diagrams, and their distribution relative to the local Galactic structures, were also used to test their young nature."
   },
   {
    "bibcode": "2026A&A...707A..23H",
@@ -47,7 +48,8 @@
    "arxiv": "2509.19069",
    "doctype": "article",
    "refereed": true,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Context. Many studies in the past few decades have investigated the evolution of young stellar objects based on their spectral energy distribution. This distribution is heavily affected not only by the evolutionary stage, but also by the morphology of the forming star. This study is part of the NEMESIS project, which aims to revisit star formation with the aid of machine-learning techniques and provides the framework for this work. Aims. In a first effort toward a novel spectro-morphological classification, we analyzed the morphologies of young stellar objects and linked them to the currently used observational classes. Thereby, we laid the foundation for a spectro-morphological classification and applied the insights learned in this study in a future revisited classification scheme. Methods. We obtained archival high-resolution survey images from VISTA for approximately 10000 young stellar object candidates from the literature toward the Orion star formation complex. Using a self-organizing map algorithm, which is an unsupervised machinelearning method, we created a grid of morphological prototypes from near- and mid-infrared images. Furthermore, we determined the prototypes that best represent the different observational classes we derived from the infrared spectral index via Bayesian inference. Results. We present our grids of morphological prototypes of young stellar objects in the near-infrared. The prototypes were created from observational data alone. They are thus independent of theoretical models. In addition, we show maps that indicate the probability for a prototype to belong to any of the observational classes. Conclusions. Self-organizing maps created from near-infrared images are a useful tool, with limitations, for identifying the characteristic morphologies of young stellar objects in different evolutionary stages. This first step lays the foundation for a spectro-morphological classification of young stellar objects that is to be developed in the future."
   },
   {
    "bibcode": "2026A&A...705A.172M",
@@ -72,7 +74,7 @@
    "doctype": "article",
    "refereed": true,
    "citations": 2,
-   "abstract": "Context: Photometric variability is a defining characteristic of young stellar objects (YSO), which can be traced back to a range of physical processes taking place at different stages of young stars' formation and early evolution. Gaia's third Data Release (GDR3) has provided an unprecedented dataset of photometric time series, including 79375 light curves for YSO candidates. With its all-sky coverage, Gaia provides a unique opportunity for large-scale studies of YSO variability. Aims: Our goal was to characterise the GDR3 sample of YSO variables further and verify the recurrence of YSO variability modes due to accretion, extinction, rotation modulation, etc. By adapting the Q&M methodology for Gaia's sparse and long-term light curves, we seek to bridge the gap between low and high-cadence surveys' insights on YSO variability. Methods: We piloted the application of the asymmetry (M) and periodicity (Q) variability metrics to characterise YSO variability with Gaia light curves. Through refined sample selection, we identified sources with appropriate sampling for the Q&M methodology. We used the Generalised Lomb Scargle periodogram and structure functions to infer variability timescales. Results: We successfully derived Q&M indices for ~23000 sources in the GDR3 YSO sample. These variables were then classified into eight variability morphological classes. We linked morphological classes with physical mechanisms by using H$α$ as a proxy of accretion and $α_\\mathrm{IR}$-indices to gauge circumstellar material's presence. Conclusions: We demonstrate that the Q&M metrics can be successfully applied to Gaia's sparse time-series. We applied them to distinguish between the several variability modes. While our results are generally consistent with previous high-cadence, short-term studies, we find that GDR3's long timespan yields an enhanced variety of variability mechanisms."
+   "abstract": "Context. Photometric variability is a defining characteristic of young stellar objects (YSOs) that can be traced back to a range of physical processes that occur at different stages in the formation and early evolution of young stars. The Gaia third Data Release (GDR3) has provided an unprecedented dataset of photometric time series, including 79 375 light curves for sources classified as YSO candidates. Through its all-sky coverage, Gaia provides a unique opportunity for large-scale studies of YSO variability. Aims. Our goal was to characterise the GDR3 sample of YSO variables to better identify the recurrence of YSO variability modes (caused by accretion, extinction, rotation modulation, etc.). We made a pilot study of the applicability of the asymmetry (M) and periodicity (Q) variability metrics to characterise YSO variability with Gaia light curves. By adapting the Q-M metrics for sparse and long-term light curves, we sought to bridge the gap between low- and high-cadence survey insights on YSO variability. Methods. We adapted the Q-M method for Gaia. Through a refined sample selection, we identified sources with an appropriate sampling for the Q-M method. We used the generalised Lomb Scargle periodogram and structure functions to derive characteristic variability timescales. Results. We successfully derived Q-M indices for 23 000 sources in the GDR3 YSO sample. These variables were then classified into eight variability morphological classes. We linked the morphological classes with physical mechanisms using Hα as a proxy of accretion and α<SUB>IR</SUB> indices to gauge whether circumstellar material was present. Conclusions. We demonstrate that the Q-M metrics can be successfully applied to study the sparse time series of Gaia. We applied it successfully to distinguish between the various variability modes of YSOs. While our results are generally consistent with previous high-cadence short-term studies, the long GDR3 time span yields a larger variety of variability mechanisms."
   },
   {
    "bibcode": "2025A&A...702A..63R",
@@ -97,7 +99,7 @@
    "doctype": "article",
    "refereed": true,
    "citations": 8,
-   "abstract": "The past decade has seen a rise in the use of Machine Learning methods in the study of young stellar evolution. This trend has led to a growing need for a comprehensive database of young stellar objects (YSO) that goes beyond survey-specific biases and that can be employed for training, validation, and refining the physical interpretation of machine learning outcomes. We reviewed the literature focused on the Orion Star Formation complex (OSFC) to compile a thorough catalogue of previously identified YSO candidates in the region including the curation of observables relevant to probe their youth. Starting from the NASA/ADS database, we assembled YSO candidates from more than 200 peer-reviewed publications. We collated data products relevant to the study of YSOs into a dedicated catalogue, which was complemented with data from large photometric and spectroscopic surveys and in the Strasbourg astronomical Data Center. We also added significant value to the catalogue by homogeneously deriving YSO infrared classification labels and through a comprehensive curation of labels concerning sources' multiplicity. Finally, we used a panchromatic approach to derive the probabilities that the sources in our catalogue were contaminant extragalactic sources or giant stars. We present the NEMESIS catalogue of YSOs for the OSFC, which includes data collated for 27879 sources covering the whole mass spectrum and the various stages of pre-Main Sequence evolution from protostars to diskless young stars. The catalogue includes a collection of panchromatic photometric data processed into spectral energy distributions, stellar parameters, infrared classes, equivalent widths of emission lines related to YSOs accretion and star-disk interaction, and absorption lines such as lithium and lines related to source's gravity, X-ray emission observables, photometric variability observables, and multiplicity labels."
+   "abstract": "Context. The past decade has seen a rise in the use of machine learning methods in the study of young stellar evolution. This trend has led to a growing need for a comprehensive database of young stellar objects (YSOs) that goes beyond survey-specific biases and can be employed for training, validating, and refining the physical interpretation of machine learning outcomes. Aims. We aim to review the literature focussed on the Orion star formation complex (OSFC) to compile a thorough catalogue of previously identified YSO candidates in the region, including the curation of observables relevant to probing their youth. Methods. Starting from the NASA/ADS database, we assembled YSO candidates from more than 200 peer-reviewed publications targeting the OSFC. We collated data products relevant to the study of young stars into a dedicated catalogue, which was complemented with data from large photometric and spectroscopic surveys as well as the Strasbourg Astronomical Data Center. We also added significant value to the catalogue by homogeneously deriving YSO infrared classification labels and through a comprehensive curation of labels concerning the sources' multiplicity. Finally, we used a panchromatic approach to derive the probabilities of the candidate YSOs in our catalogue being contaminant extragalactic sources or giant stars. Results. We present the NEMESIS catalogue of YSOs for the OSFC, which includes data collated for 27 879 sources covering the whole mass spectrum and the various stages of pre-main sequence evolution from protostars to disc-less young stars. The catalogue includes a large collection of panchromatic photometric data processed into spectral energy distributions, stellar parameters (T<SUB>eff</SUB>, T<SUB>bol</SUB>, spectral types, log ɡ, υ sin i, and RV), infrared classes, equivalent widths of emission lines related to YSO accretion and star-disc interaction, and absorption lines such as lithium and lines related to the source's gravity, X-ray emission observables, photometric variability observables (e.g. variability periods and amplitudes), and multiplicity labels."
   },
   {
    "bibcode": "2025A&A...701A.150H",
@@ -134,7 +136,8 @@
    "arxiv": "2505.16320",
    "doctype": "article",
    "refereed": true,
-   "citations": 6
+   "citations": 6,
+   "abstract": "Context. Gaia Data Release 3 (DR3) has published for the first time epoch photometry, BP/RP (XP) low-resolution mean spectra, and supervised classification results for millions of variable sources. This extensive dataset offers a unique opportunity to study the variability of these objects by combining multiple Gaia data products. Aims. In preparation for DR4, we propose and evaluate a machine learning methodology capable of ingesting multiple Gaia data products to achieve an unsupervised classification of stellar and quasar variability. Methods. A dataset of 4 million Gaia DR3 sources was used to train three variational autoencoders (VAEs), which are artificial neural networks (ANNs) designed for data compression and generation. One VAE was trained on Gaia XP low-resolution spectra, another on a novel approach based on the distribution of magnitude differences in the Gaia G band, and the third on folded Gaia G band light curves. Each Gaia source was compressed into 15 numbers, representing the coordinates in a 15-dimensional latent space generated by combining the outputs of these three models. Results. The learned latent representation produced by the ANN effectively distinguishes between the main variability classes present in Gaia DR3, as demonstrated through both supervised and unsupervised classification analysis of the latent space. The results highlight a strong synergy between light curves and low-resolution spectral data, emphasising the benefits of combining the different Gaia data products. A 2D projection of the latent variables revealed numerous overdensities, most of which strongly correlate with astrophysical properties, showing the potential of this latent space for astrophysical discovery. Conclusions. We show that the properties of our novel latent representation make it highly valuable for variability analysis tasks, including classification, clustering, and outlier detection."
   },
   {
    "bibcode": "2025yCat..36960196G",
@@ -157,7 +160,8 @@
    "arxiv": null,
    "doctype": "dataset",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "We performed spectral energy distribution fitting using the models of Robitaille (2017A&amp;A...600A..11R) for 27879 young stellar objects in the Orion Star Forming Complex. From this analysis, we successfully derived physical parameters such as effective temperature and luminosity for 15396 sources. To estimate stellar masses and ages, we compared these results with predictions from the PAdova and TRieste Stellar Evolution Code (PARSEC Bressan et al. (2012MNRAS.427..127B); Chen et al. (2014MNRAS.444.2525C, 2015MNRAS.452.1068C); Tang et al. (2014MNRAS.445.4287T) evolutionary tracks. <P />The OSFC spans a wide field of view of approximately 564 square degrees, covering the sky region bounded by 74.2&lt;RA&lt;92 and -14.1&lt;Dec&lt;17.6. <P />(2 data files)."
   },
   {
    "bibcode": "2025A&A...696A.196G",
@@ -180,7 +184,8 @@
    "arxiv": "2502.18629",
    "doctype": "article",
    "refereed": true,
-   "citations": 5
+   "citations": 5,
+   "abstract": "Context. One of the key tools for understanding the evolution of young stellar objects (YSOs) is to analyse their spectral energy distributions (SEDs). As part of the NEMESIS project, we have performed a large-scale SED fitting analysis of the Orion star formation complex (OSFC). Aims. We aim to derive key physical parameters, including temperature, luminosity, mass, and age, for a large sample of sources in the OSFC using synthetic SED models. Our goal is to establish a statistically robust characterisation of the stellar population and its evolutionary state across the entire complex. Methods. We utilize a set of new radiative transfer model SEDs that span a variety of geometries and parameter spaces. These SEDs are fitted to multi-wavelength photometric data from optical to submillimeter wavelengths. We conducted SED fitting on a sample of 15 396 sources. Among these, 5062 have at least a reliable W3 (12 µm) detection at longer wavelengths, and 63 have sub-millimeter detections in APEX/SABOCA at 350 µm or APEX/LABOCA at 870 µm. The resulting physical parameters are cross-referenced with stellar evolutionary tracks to ensure consistency with theoretical predictions. Results. The derived parameters reveal a diverse stellar population. Sources placed on the Hertzsprung-Russell diagram show distinct evolutionary sequences. The results are provided with varying levels of completeness and reliability, depending on the available data for each source. The catalogue includes quality indicators such as the flux code, which represents the longest detected wavelength for each source, as well as Prob_W3 and Prob_W4 values that quantify the reliability of the AllWISE W3 and W4 detections. All results, including SED fitting outcomes, uncertainty estimates, and source metadata, are publicly available in a comprehensive CDS table. Conclusions. This dataset provides a statistically significant view of the evolutionary processes within the OSFC. The publicly accessible dataset offers a valuable resource for future studies on star and planet formation."
   },
   {
    "bibcode": "2025A&A...696A..37M",
@@ -204,7 +209,8 @@
    "arxiv": "2502.18345",
    "doctype": "article",
    "refereed": true,
-   "citations": 3
+   "citations": 3,
+   "abstract": "Context. Analyzing extended emission in photometric observations of star-forming regions requires maps free from compact foreground, embedded, and background sources, which can interfere with various techniques used to characterize the interstellar medium. Within the framework of the NEMESIS project, we applied machine-learning techniques to improve our understanding of the star formation timescales, which involves the unbiased analysis of the extended emission in these regions. Aims. We present a deep learning-based method for separating the signals of compact sources and extended emission in photometric observations made by the Herschel Space Observatory, facilitating the analysis of extended emission and improving the photometry of compact sources. Methods. Central to our approach is a modified U-Net architecture with partial convolutional layers. This method enables effective source removal and background estimation across various flux densities, using a series of partial convolutional layers, batch normalization, and ReLU activation layers within blocks. Our training process utilized simulated sources injected into Herschel images, with controlled flux densities against known backgrounds. A dynamic, signal-to-noise ratio (S/N)-based adaptive masking system was implemented to assess how prominently a compact source stands out from the surrounding background. Results. The results demonstrate that our method can significantly improve the photometric accuracy in the presence of highly fluctuating backgrounds. Moreover, the approach can preserve all characteristics of the images, including the noise properties. Conclusions. The presented approach allows users to analyze extended emission without the interference of disturbing point sources or perform more precise photometry of sources located in complex environments. We also provide a Python tool with tutorials and examples to help the community effectively utilize this method."
   },
   {
    "bibcode": "2024MNRAS.533.1290S",
@@ -224,7 +230,8 @@
    "arxiv": "2405.00779",
    "doctype": "article",
    "refereed": true,
-   "citations": 21
+   "citations": 21,
+   "abstract": "In recent years, there has been a push to understand how chemical composition affects the magnetic activity levels of main sequence low-mass stars. Results indicate that more metal-rich stars are more magnetically active for a given stellar mass and rotation period. This metallicity dependence has implications for how the rotation periods and activity levels of low-mass stars evolve over their lifetimes. Numerical modelling suggests that at late ages more metal-rich stars should be rotating more slowly and be more magnetically active. In this work, we study the rotation and activity evolution of low-mass stars using a sample of Kepler field stars. We use the gyro-kinematic age dating technique to estimate ages for our sample and use the photometric activity index as our proxy for magnetic activity. We find clear evidence that, at late ages, more metal-rich stars have spun down to slower rotation in agreement with the theoretical modelling. However, further investigation is required to definitively determine whether the magnetic activity evolution occurs in a metallicity dependent way."
   },
   {
    "bibcode": "2024A&A...688A.203M",
@@ -249,7 +256,8 @@
    "arxiv": "2406.03116",
    "doctype": "article",
    "refereed": true,
-   "citations": 20
+   "citations": 20,
+   "abstract": "Context. Herschel operated as an observatory, and therefore it did not cover the whole sky, but still observed ~8% of it. The first version of an overall Herschel/PACS Point Source Catalogue (PSC) was released in 2017. The data are still unique and are very important for research using far-infrared information, especially because no new far-infrared mission is foreseen for at least the next decade. In the framework of the NEMESIS project, we revisited all the photometric observations obtained by the PACS instrument on-board the Herschel space observatory, using more advanced techniques than before, including machine learning techniques. <BR /> Aims: Our aim was to build the most complete and most accurate Herschel/PACS catalogue to date. Our primary goal was to increase the number of real sources, and decrease the number of spurious sources identified on a strongly variable background, which is due to the thermal emission of the interstellar dust, mostly located in star-forming regions. Our goal was to build a blind catalogue, meaning that source extraction is conducted without relying on prior detections at various wavelengths, allowing us to detect sources never catalogued before. <BR /> Methods: The methods for data analysis have evolved continuously since the first release of a uniform Herschel/PACS catalogue. We define a hybrid strategy that includes classical and machine learning source identification and characterisation methods that optimise faint-source detection, providing catalogues at much higher completeness levels than before. Quality assessment also involves machine learning techniques. Our source extraction methodology facilitates a systematic and impartial comparison of sensitivity levels across various Herschel fields, a task that was typically beyond the scope of individual programmes. <BR /> Results: We created a high-reliability and a rejected source catalogue for each PACS passband: 70, 100, and 160 μm. With the high-reliability catalogue, we managed to significantly increase the completeness in all bands, especially at 70 μm. At the same time, while the number of high-reliability detections decreased, the number of sources matching with existing catalogues increased, suggesting that the purity is also higher than before. The photometric accuracy of our pipeline is ~1% based on comparison with the standard star models. <P />A copy of the catalog is available at the CDS via anonymous ftp to <A href=\"https://cdsarc.cds.unistra.fr\">cdsarc.cds.unistra.fr</A> (ftp://130.79.128.5) or via <A href=\"https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/688/A203\">https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/688/A203</A>"
   },
   {
    "bibcode": "2024yCat..75331290S",
@@ -269,7 +277,8 @@
    "arxiv": null,
    "doctype": "dataset",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The properties of 7752 late-type stars in the Kepler field. Masses, ages and turnover times are derived in this work while periods, metallicities and photometric activities are compiled from the literature. <P />(1 data file)."
   },
   {
    "bibcode": "2024eas..conf.2142H",
@@ -291,7 +300,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "We use self-organizing maps, an unsupervised machine learning technique, to explore the evolutionary stages and improve the classification of young stellar objects (YSOs). All current classification schemes solely rely on photometric measurements, disregarding the morphology of the YSOs. The NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) project aims to introduce a paradigm shift by integrating the often-overlooked morphological characteristics of YSOs into the classification methodologies. To that end, we collected cutout images from roughly 8000 YSOs in the Orion star-forming complex in the near and mid-infrared wavelengths. To investigate the different morphologies of young stellar objects, we relied on archival high-resolution image data from the Spitzer space telescope and the Visual and Infrared Survey Telescope for Astronomy (VISTA). Utilizing PINK (Parallelized rotation and flipping INvariant Kohonen maps) we constructed a grid of spectro-morphological prototypes of YSOs. Since unique characteristics of each YSO such as inclination angle, aspherical geometries of the envelope, and reddening, are reflected in the YSO morphology, this grid of prototypes helps us to better discern between the different observational classes. By combining the PINK prototypes with the spectral energy distribution gained from photometric measurements, we provide a more robust and reliable classification scheme for young stellar objects. Determining the observational class of a YSO with better accuracy enables us to infer its true evolutionary stage with high confidence, helping us to better understand early stellar evolution and the timescales of star and planet formation."
   },
   {
    "bibcode": "2024eas..conf.2129R",
@@ -313,7 +323,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "As the field of star formation dives into the era of big data, we are now faced with the challenges behind reliable and unbiased applications of artificial intelligence and machine learning techniques. This is in large part due to the data available to validate machine-learning results, which are often susceptible to small numbers or limited to the specifications of a few larger-scale surveys. To tackle this, we revisited the published literature targeting the Orion star-formation complex under the framework of the NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) project to build a polyvalent training and validation sample Young Stellar Objects (YSOs). As a result, we have curated the region's most extensive panchromatic data collection, including data for more than 25,000 YSO candidates in the field of view of the Orion constellation, a more significant number of YSOs than ever mentioned in SIMBAD for the region. By reviewing the peer-reviewed literature beyond that included on CDS and collating previously observed data for these objects, we spectroscopically confirmed about 1/4 of this sample as definitely young. We present the main aspects of this catalogue, which include accretion and youth-related emission and absorption lines, spectral types, rotational properties, variability features, binarity information, and added value quantities such as SEDs and their derived quantities, uniformised YSO classes, and much more. Finally, we also illustrate the usability of the catalogue by showcasing some of the machine-learn applications developed by the NEMESIS team to explore star formation in the solar neighbourhood."
   },
   {
    "bibcode": "2024eas..conf.1922M",
@@ -336,7 +347,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "We employed the Vizier SED API to collect the most complete spectral energy distributions for nearly 1 million young stellar object (YSO) candidates based on existing YSO catalogues from the literature. Using various deep learning methods we re-classified and selected more than 160 thousand high probability YSO candidates with reliable distance values. With a 3D minimum spanning tree, over 300 young clusters with at least 20 members were identified. We have also collected the available light curve statistics for our YSOs from ZTF and ASAS-SN and found significant differences in the variability between members of different clusters. For a smaller sample of sources, we used up-to-date Gaia alert light curves and developed a Long Short-Term Memory based autoencoder for their characterisation. We then combined the latent space generated by the autoencoder with statistical features for k-means clustering, effectively clustering the sources. Subsequently, we employed t-distributed stochastic neighbour embedding to downproject this high-dimensional data to a 2-dimensional space, enabling the identification of distinct patterns in YSO behaviour. With this method, that we will extend to the Gaia DR3 and DR4 data, we are able to identify stochastic variability with different amplitudes, single or multiple outliers, like flares, dimming and outbursting events on different timescales, and monotonic brightening or fading. Beyond details of the work, in this talk I will also discuss the differences of the variability seen in members of different young clusters, and correlate the time dependent features to the cluster density, age, mass and environment."
   },
   {
    "bibcode": "2024eas..conf.1413R",
@@ -354,7 +366,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The majority of observed young stars are located in clustered environments, suggesting that stars are not born in isolation. Starting from this premise, in this talk, we present the results of spin evolution models that consider the influence of open clusters' early environments on the spin evolution of low-mass stars. In particular, we looked at how factors such as the presence of massive stars and the clusters' stellar density shape their local far-ultraviolet radiation fields, influencing the evolution and dissipation timescales of planet-forming disks due to external photoevaporation. Environmentally dependent disk-dissipation timescales directly impact the duration of the star-disk-interaction phase, during which stars are expected to exchange angular momentum with their disk. By modelling the spin evolution of low-mass populations of entire clusters, we will illustrate how different cluster environments can contribute to shaping clusters' rotational distributions, with the feedback from massive stars playing a crucial role in explaining the mass dependence of rotation observed in the period-mass distributions of young regions like NGC 2264 and Upper Sco. By inducing an earlier start of the pre-main-sequence spin-up phase in stars evolving under high far-ultraviolet environments, the presence of high-mass stars can skew the spin-rate distribution of surrounding stars towards fast-rotation, explaining the excess of fast-rotating stars in the open cluster h Per. Environmental fingerprints on clusters' period-mass distributions should be observable as early as 3 Myrs after stars start to form and remain visible until the stars' spin starts following the Skumanich spin-down. This suggests that the rotation of stars prior to the Skumanich spin-down phase could be used to trace their primordial ultraviolet irradiation, offering a potential method to connect planetary systems around stars with early-MS ages to their birth environment."
   },
   {
    "bibcode": "2024eas..conf.1198R",
@@ -376,7 +389,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Since their introduction a decade ago, the Asymmetry and Periodicity variability metrics have become increasingly popular among studies of young stellar variability. These metrics provide a two-dimensional plane for categorising young stellar variability based on their light curves' degree of asymmetry (or symmetry) and periodicity (or stochasticity). Previous research suggests that these metrics may effectively capture the influence of young stellar magnetic field geometries and system inclination on the light curves of young stars. Therefore, they hold promise as additional features for large-scale surveys to identify and characterise young stellar objects. However, as these metrics were initially designed for high-cadence light curves, their applicability to light curves with a sparse cadence, such as those observed by Gaia, remains a question. Towards applying these metrics to support YSO classification with light curves of future Gaia data releases, we attempted to settle a universal implementation for metrics that allows for its application to all sorts of observational windows, regardless of their regularity or cadence. In this talk, we will show the results of a series of benchmark tests focusing on applying the Asymmetry and Periodicity variability metrics to Gaia DR3 light curves of YSOs located in star-forming regions such as the Orion Star-Formation Complex."
   },
   {
    "bibcode": "2024yCat..36880203M",
@@ -401,7 +415,8 @@
    "arxiv": null,
    "doctype": "dataset",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "We compiled 6 different catalogue files from the photometric observations of the PACS instrument on-board the Herschel Space Observatory. For each photometric band (BS, BL and R, centered at the wavelengths 70, 100 and 160um, respectively) a high reliability and a rejected catalogue is presented. The high reliability tables contain sources only with S/N&gt;=3. In case of multiple detections of the same object the best detection is kept in the high reliability catalogues. The rejected source tables contain sources with S/N&gt;=1. In case of multiple detections of the same object, those with the lower S/N ratio are added to these tables. <P />(6 data files)."
   },
   {
    "bibcode": "2023MNRAS.524.5781S",
@@ -421,7 +436,8 @@
    "arxiv": "2307.01688",
    "doctype": "article",
    "refereed": true,
-   "citations": 18
+   "citations": 18,
+   "abstract": "The magnetic activity level of low-mass stars is known to vary as a function of the physical properties of the star. Many studies have shown that the stellar mass and rotation are both important parameters that determine magnetic activity levels. In contrast, the impact of a star's chemical composition on magnetic activity has received comparatively little attention. Data sets for traditional activity proxies, e.g. X-ray emission or calcium emission, are not large enough to search for metallicity trends in a statistically meaningful way. Recently, studies have used the photometric variability amplitude as a proxy for magnetic activity to investigate the role of metallicity because it can be relatively easily measured for large samples of stars. These studies find that magnetic activity and metallicity are positively correlated. In this work, we investigate the link between activity and metallicity further by studying the flaring properties of stars in the Kepler field. Similar to the photometric variability, we find that flaring activity is stronger in more metal-rich stars for a fixed mass and rotation period. This result adds to a growing body of evidence that magnetic field generation is correlated with metallicity."
   },
   {
    "bibcode": "2023yCat..74993481A",
@@ -440,7 +456,8 @@
    "arxiv": null,
    "doctype": "dataset",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "We used the Gaia-Kepler catalogue as our starting point (Bedell 2018, available at https://gaia-kepler.fun/), which includes entries for 201312 sources in the Kepler field and was produced by a cross-matching between Data Release 25 Kepler Catalog and Gaia DR2 source catalogue, using a 1-arcsec radius for matching, and includes the improved distance prescription from Bailer-Jones et al. (2018AJ....156...58B, Cat. I/347). We then excluded duplicate sources and selected high-quality Gaia-DR2 data by requiring a parallax error &lt;0.1mas and (σm/m)&lt;0.01 for every photometric band. Finally, we merged this Gaia-Kepler sample with the rotation period measurements from McQuillan et al. (2014ApJS..211...24M, Cat J/ApJS/211/24). This process results in a sample of 28508 stars with good-quality Gaia DR2 data and measured Kepler rotation periods. <P />We searched the literature for measurements of [Fe/H] for stars in the Kepler field that were based on mid- or high-resolution spectroscopy, ultimately selecting the catalogues from the revised KIC, LAMOST, and APOGEE. <P />(1 data file)."
   },
   {
    "bibcode": "2023eas..conf.2038H",
@@ -464,7 +481,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "To determine the evolutionary stage of a young stellar object (YSO), astronomers heavily rely on these objects' spectral energy distribution (SED). Classes for young stellar objects are defined solely on particular characteristics of their SED which cannot efficiently differentiate between different evolutionary stages, so they are prone to large uncertainties due to effects of inclination, aspherical geometries and reddening. Attempts to consider the system parameters of a YSO were made by creating synthetic SEDs from simulations of YSOs in different configurations, which are then fitted to the observed SEDs. Nonetheless, the accuracy of the results from SED fitting decreases rapidly with missing data. Within the NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) projects framework, we aim to improve current YSO classification schemes by including the morphology of YSOs as critical information, which in the past has been either disregarded or was unavailable to the original classification scheme. To this end, we employ PINK (Parallelized rotation and flipping INvariant Kohonen maps), an unsupervised machine learning technique, to create a grid of spectro-morphological YSO prototypes, using high-resolution images from ground and space-bound observatories, covering a wide range of near-, mid-, and far infrared wavelengths. Therefore, we combine the SED shape of a given YSO, with its morphology from the high-resolution images at different infrared wavelengths. Thus, a morphological classification for YSOs, in combination with the currently used methods, enables us to determine the true evolutionary stage of a YSO with great confidence, leading to a better understanding of how stars form and evolve in their early stages."
   },
   {
    "bibcode": "2023eas..conf.1704M",
@@ -486,7 +504,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The most recent Gaia data release (DR3) provides information on an order of magnitude more variable sources than Gaia DR2 in 2018. Among the published additional variability classes is the class of Young Stellar Objects (YSO). <P />While the DR3 YSO selection was based on Gaia data only, our NEMESIS (Novel Evolutionary Model for the Early stages of Stars with Intelligent Systems) project took a further step to verify the YSO nature of the objects and to increase the purity of the catalogue. A deep learning method was developed using the PyTorch machine learning library. YSOs are mostly found by the infrared excess of their radiation, but the many catalogues providing information are hard to combine and calculating all possible colours depending on the available data is too complex and cannot provide a uniform classification scheme. We took the simple idea that based on available data we plot the Spectral Energy Distribution of several ten thousand objects from many types, including extragalactic objects, main-sequence stars, long period variables, RR Lyrae stars, Cepheids, and ~30 000 known YSOs. Multiple Convolutional Neural Networks were trained on the saved SED plots to create binary classifiers that can distinguish between YSOs and other types of objects. <P />We found that on average the accuracy for identifying YSOs is above 95%, while identifying the non-YSOs was successful in 99% of the cases in our training. To validate the results we applied our classifiers on catalogues independent from the training process, as well, and found similar accuracy. We discuss the application of this classifier to the Gaia DR3 YSO candidate sample and show our results in terms of contamination and also analyse the large scale distribution of the confirmed sources on the galactic scale."
   },
   {
    "bibcode": "2023eas..conf.1504R",
@@ -508,7 +527,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "As the field of star formation follows astronomy into the era of big data, we are now faced with the challenges behind truly reliable and unbiased applications of artificial intelligence and machine learning techniques. One of these challenges is quantifying the uncertainties behind machine learning applications and evaluating how the uncertainties in our prior knowledge of the star formation field impact such algorithms' performance. To tackle this challenge, we examined the Orion star-formation complex under the framework of the NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) project, which aims to reshape our understanding of star formation by employing artificial intelligence methods to explore astronomical big-data. We identified more than 22,000 Young Stellar Object (YSO) candidates towards the Orion star-formation complex, more than ever mentioned in SIMBAD, by revisiting the published literature beyond CDS and collating previously observed data for these objects. <P />With a curation of emission lines, SEDs and derived quantities, and uniformised YSO classes, we confirmed about a fourth of these as true YSOs spectroscopically. In this presentation, we give examples of Machine Learning exploration of our YSO database in Orion employing clustering algorithms such as k-Nearest Neighbours and Support Vector Classifiers and a Pytorch case study towards building a YSO-SED classification tool."
   },
   {
    "bibcode": "2023eas..conf.1456M",
@@ -531,7 +551,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Our NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) project has the goal to re-shape the current evolutionary models of Young Stellar Objects with state-of-the-art computational techniques. As part of our work, the creation of an advanced Herschel/PACS Point Source Catalogue (HPPSC) is not only important for us, but also represents an important legacy product to the community as the best far-infrared photometric catalogue available until the next far-infrared mission is launched to space. We combined several methods, including the most recent Machine Learning (ML) methods to identify the sources and to increase the completeness of the catalogue to a new level. For source identification, our pipeline used traditional methods, like the SUSSEXtractor and DAOFind, but also Haar-like features, which are often used in face recognition algorithms. Moreover, we developed a deep learning method to discriminate between false and real detections, and combined with other classifiers based on the features collected by the various photometric tools. The quality assessment was based on simulated observations, where artificial sources with well controlled flux levels were added to the real observations. At this stage we applied ML regression methods to provide the best quality assessment based on the flux level of the sources and on the complexity of the regions they are located in, as in the far-IR regime the fluctuating background makes this task a challenging one. As a result we provide a catalogue that is 10-20% more complete at all flux levels, in all observing modes and in all photometric bands of the Herschel, and reached 90% completeness level at flux levels ~50% lower than previously in the first version of the HPPSC. The catalogue is going to be published in the CDS database, and also will be ingested into the ESA Sky and IRSA databases."
   },
   {
    "bibcode": "2022csss.confE.189R",
@@ -551,7 +572,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "While most spin evolution models consider stars that form and evolve in isolation, the vast majority of observed young stars are located in clustered environments. Towards reducing this discrepancy, in this talk, we will show the results of a spin evolution model that considers the influence of open clusters' early environments on the spin evolution of low mass stars. In particular, we looked at how stellar density and the presence of massive stars shape the local far-ultraviolet radiation fields of clusters, influencing the dissipation timescales of circumstellar disks due to external photoevaporation. Environmentally dependent disk-dissipation timescales directly impact the duration of the star-disk-interaction phase, during which stars are expected to exchange angular momentum with their disk. By modelling the spin evolution of the low mass population of entire clusters with diverse environments, we will illustrate how these environments can contribute to shaping clusters' rotational distributions, with the feedback from massive stars playing a crucial role in explaining the mass dependence of rotation observed in the period-mass distributions of young regions like NGC 2264 and Upper Sco. By inducing an earlier start of the pre-main-sequence spin-up phase in stars evolving under high far-ultraviolet environments, the presence of high-mass stars can skew the spin-rate distribution of surrounding stars towards fast-rotation, explaining the excess of fast-rotating stars in the open cluster h Per. Environmental fingerprints on cluster's period-mass distributions should be observable at ages as early as 3 Myrs and remain visible until the stars' spin starts following the Skumanich spin-down. This suggests that the rotation of stars prior to the Skumanich spin-down phase could be used to trace their primordial ultraviolet irradiation, offering a potential method to connect planetary systems around stars with early-MS ages to their birth environment."
   },
   {
    "bibcode": "2022csss.confE.183R",
@@ -574,7 +596,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "As the field of star-formation follows astronomy into the era of big data, we are now faced with the challenges behind truly reliable and unbiased applications of artificial intelligence and machine learning techniques. One of these challenges is quantifying the uncertainties behind machine learning applications and evaluating how the uncertainties in our prior knowledge of the field of starformation impact the performance of such algorithms. The Orion star-formation complex is arguably the most well-studied star-forming region in the sky. With more than 8,000 refereed publications indexed by NASA/ADS and about one-tenth of those feeding data products to the CDS database, the region offers a wealth of possible attributes to be explored by machine learning techniques. In this study, we examine the region under the framework of the NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) project - which aims to reshape our understanding of star-formation by employing artificial intelligence methods to explore astronomical big-data. Towards benchmarking the Orion complex as a training set for machine learning techniques, we present a synoptic catalogue of Young Stellar Objects in the region. This catalogue combines data from large surveys (e.g., AllWISE, AKARI, Spitzer, Herschel, Gaia EDR3, etc.) with literature data 109 products, covering the whole electromagnetic spectrum from X-rays to radio and has been curated with particular attention to both time-domain and variability aspects."
   },
   {
    "bibcode": "2022eas..conf.1913G",
@@ -598,7 +621,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "As part of NEMESIS (Novel Evolutionary Model for the Early stages of Stars with Intelligent Systems) project aiming to use machine learning techniques to detect new young stellar objects (YSOs) and classifying them, we aim to use the techniques applied in the Gaia Science Alerts to recognize eruptive YSO events. Indeed, YSOs are known to exhibit brightness changes over various timescales, in particular FUor-like objects which are brightening several magnitudes on a few months timescale, showing a characteristic light curve. However, other types of objects may show similar light curves to YSOs, especially when the cadence of observations is not dense enough. Gaia scans the sky and repeatedly observes sources. Hence, when the brightness of a source rises or falls significantly, it will be visible in the Gaia data and alerted by Gaia Science Alerts system, which is designed to detect the appearance of new objects, such as supernovae, as well as unexpected changes in brightness, e.g. cataclysmic variables or microlensing events. We build a training set using thousands of examples for the main classes of alerting stars combining optical to mid-infrared magnitudes from Gaia, 2MASS and AllWISE catalogues. Unfortunately, all events do not have complete photometry, while some of them have missing data. We split the training sample into three in order to separate complete multi-wavelength coverage from those with missing data. We used supervised machine learning techniques to build models for classification of alerts. We show that our photometric machine learning classification, despite its limitations, is quite successful in recognizing YSOs, especially AllWISE photometry is available. Our method can be applicable also to the alerts from the on-going surveys like ZTF or ASAS-SN, and can also be combined with the alerts stream through ALeRCE or similar brokers. The technique will further be used in NEMESIS using archival and newly reduced photometric data."
   },
   {
    "bibcode": "2022eas..conf.1429T",
@@ -621,7 +645,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The formation process of a star is characterised by the collapse of a dense envelope surrounding the protostar. At these early phases, radiation from the protostar in its majority does not escape its surrounding envelope. The radiation from this re-emitted however by the surrounding envelope at far-infrared wavelengths. In this talk I will present our first results from a project in the framework of NEMESIS (Novel Evolutionary Model for the Early stages of Stars with Intelligent Systems). We use data from the Herschel Space Telescope obtained with the PACS instrument at far-infrared wavelengths (70μm, 100μm and 160μm). Herschel provides large scale maps of the galactic mid-plane and of several well known star forming regions in the Gould Belt. We identify Class 0 sources based on their photometry and present the youngest protostar populations in a few star-forming regions along with their photometric properties which can potentially constitute an observational constraint for Class 0 sources in general."
   },
   {
    "bibcode": "2022eas..conf.1400M",
@@ -650,7 +675,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Since the beginning of the last decade the analysis of huge amounts of data is a new challenge that researchers in general have to cope with. This is also true for astronomers and luckily the number of infrared facilities and the amount of data collected by them increased several order of magnitudes, leading us to new discoveries through data mining and knowledge discovery in databases using modern statistical methods, supervised and unsupervised machine learning. On-going surveys in other domains of the electromagnetic spectrum are providing us with a temporal data avalanche at the moment and allow us to catch phenomena that we have never seen before. I present the project NEMESIS (Novel Evolutionary Model for the Early stages of Stars with Intelligent Systems) that aims to build the largest panchromatic dataset of Young Stellar Objects (YSOs) and our methods that are efficiently used in YSO discoveries in large catalogues. Not only the Spectral Energy Distributions (SEDs) of the objects are analysed but we also collect temporal data, as many of the YSOs show brightness variations on various timescales, providing essential information about the dynamics of the circumstellar material. Moreover, some YSOs show characteristic light curve features that can be used to identify such rare phenomena like FU Orionis-type outbursts. In collaboration with the Gaia Photometric Science Alerts System we implemented a method to effectively identify such objects, and also used ML techniques do discriminate interesting events from false positive alerts. NEMESIS has also the aim to revisit the YSO evolutionary timescales and identify evolutionary stages that needs to be analysed in great details. YSOs in these rare stages and alerts can be potential targets for the JWST and other future facilities, and can provide details about star and planet formation that we had no chance to capture before."
   },
   {
    "bibcode": "2022eas..conf.1340M",
@@ -673,7 +699,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The NEMESIS (Novel Evolutionary Model for the Early stages of Stars with Intelligent Systems) project aims to collect the largest panchromatic dataset of Young Stellar Objects (YSOs) to date and to revisit the star and planet formation timescales using advanced Machine Learning (ML) techniques. In this presentation we present i) an ML approach to reprocess observations of the Herschel Space Observatory and create a new catalogue of the Herschel PACS and SPIRE compact sources with higher completeness and photometric accuracy compared to previous attempts, ii) techniques that were already successfully applied to large datasets with the goal to identify YSO candidates in large catalogues from AKARI, WISE, Spitzer, 2MASS and Gaia, iii) overview how supervised and unsupervised techniques provide new information as a function of the features used in our carefully compiled panchromatic dataset of the Orion star-formation complex, with special attention to so far unseen patterns in the multi-dimensional parameter space."
   },
   {
    "bibcode": "2022eas..conf.1273R",
@@ -696,7 +723,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "As the field of star-formation follows astronomy into the era of big data, we are now faced with the challenges behind truly reliable and unbiased applications of artificial intelligence and machine learning techniques. One of these challenges is quantifying the uncertainties behind machine learning applications and evaluating how the uncertainties on our prior knowledge on the field of star-formation impact the performance of such algorithms. <P />The Orion star-formation complex is arguably the most well-studied star-forming region in the sky. With more than 8,000 refereed publications indexed by NASA/ADS and about one-tenth of those feeding data products to the CDS database, the region offers a wealth of possible attributes to be explored by machine learning techniques. In this study, we examine the region under the framework of the NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) project - which aims to reshape our understanding of star-formation by employing artificial intelligence methods to explore astronomical big-data. Towards benchmarking the Orion complex as a training set for machine learning techniques, we present a synoptic catalogue of Young Stellar Objects in the region. This catalogue combines data from large surveys (e.g., AKARI, Spitzer, Herschel, Gaia, etc.) with literature data products, covering the whole electromagnetic spectrum from X-rays to radio and has been curated with particular attention to both time-domain and variability aspects."
   },
   {
    "bibcode": "2022cosp...44.1792A",
@@ -719,7 +747,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "As the field of star-formation follows astronomy into the era of big data, we are now faced with the challenges behind truly reliable and unbiased applications of artificial intelligence and machine learning techniques. One of these challenges is quantifying the uncertainties behind machine learning applications and evaluating how the uncertainties on our prior knowledge on the field of star-formation impact the performance of such algorithms. The Orion star-formation complex is arguably the most well-studied star-forming region in the sky. In this study, we examine the region under the framework of the NEMESIS (New Evolutionary Model for Early stages of Stars with Intelligent Systems) project - which aims to reshape our understanding of star-formation by employing artificial intelligence methods to explore astronomical big-data (e.g., from Spitzer, Herschel, AKARI and soon JWST). Towards benchmarking the Orion complex as a training set for machine learning techniques, we present a synoptic catalogue of Young Stellar Objects in the region. This catalogue combines data from large surveys with literature data products, covering the whole electromagnetic spectrum from X-rays to radio and has been curated with particular attention to both time-domain and variability aspects."
   },
   {
    "bibcode": "2022cosp...44.1789M",
@@ -744,7 +773,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Since the beginning of the last decade the analysis of huge amounts of data is a new challenge that researchers in general have to cope with. This is also true for astronomers and luckily the number of infrared facilities and the amount of data collected by them increased several order of magnitudes, leading us to new discoveries through data mining and knowledge discovery in databases using modern statistical methods, supervised and unsupervised machine learning. On-going surveys in other domains of the electromagnetic spectrum are providing us with a data avalanche at the moment and allow us to catch phenomena that we have never seen before. I present several methods that were efficiently used in YSO discoveries in large IR catalogues created based on data from IR space telescopes like AKARI, WISE and Herschel and that helped to identify eruptive young stars in the Gaia Photometric Science Alerts System and could be useful for future all-sky surveys, as well. Such YSO alerts can be potential targets for the JWST and can provide details about star and planet formation that we had no chance to capture before."
   },
   {
    "bibcode": "2022cosp...44.1784P",
@@ -767,7 +797,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The formation process of a star is characterized by the collapse of a dense envelope surrounding the protostar. At these early phases, radiation from the protostar in its majority does not escape its surrounding envelope. The protostar radiation is re-emitted however by the surrounding envelope at far-infrared wavelengths. In this talk I will present our first results from a project in the framework of NEMESIS (Novel Evolutionary Model for the Early stages of Stars with Intelligent Systems). We use data from the Herschel Space Telescope obtained with the PACS instrument which provides a full sky map at far-infrared wavelengths (70µm, 100µm and 160µm). We identify Class 0 sources based on their photometry and present the youngest protostar populations in a few star-forming regions along with their photometric properties which can potentially constitute an observational constraint for Class 0 sources in general."
   },
   {
    "bibcode": "2021MNRAS.508.3710R",
@@ -789,7 +820,7 @@
    "doctype": "article",
    "refereed": true,
    "citations": 33,
-   "abstract": "Massive stars are strong sources of far-ultraviolet radiation that can be hostile to the evolution of protoplanetary disks, driving mass loss by external photoevaporation and shortening disk-dissipation timescales. Their effect may also reduce the timescale of angular momentum exchanges between the disk and host star during the early pre-main-sequence phase. To improve our understanding of the environmental influence on the rotational history of stars, we developed a model that considers the influence of the local far-ultraviolet radiation on the spin evolution of low mass stars. Our model includes an assumption of disk-locking, which fixes the rotation rate during the star-disk-interaction phase, with the duration of this phase parametrised as a function of the local far-ultraviolet radiation and stellar mass (in the range 0.1--1.3 M$_\\odot$). In this way, we demonstrate how the feedback from massive stars can significantly influence the spin evolution of stars and explain the mass-dependency observed in period-mass distributions of young regions like Upper Sco and NGC 2264. The high far-ultraviolet environments of high-mass stars can skew the period distribution of surrounding stars towards fast-rotation, explaining the excess of fast-rotating stars in the open cluster h Per. The proposed link between rotation and the pre-main-sequence environment opens new avenues for interpreting the rotational distributions of young stars. For example, we suggest that stellar rotation may be used as a tracer for the primordial ultraviolet irradiation for stars up to $\\sim$1 Gyr, which offers a potential method to connect mature planetary systems to their birth environment."
+   "abstract": "Massive stars are strong sources of far-ultraviolet radiation that can be hostile to the evolution of protoplanetary discs, driving mass-loss by external photoevaporation and shortening disc-dissipation time-scales. Their effect may also reduce the time-scale of angular momentum exchanges between the disc and host star during the early pre-main-sequence phase. To improve our understanding of the environmental influence on the rotational history of stars, we developed a model that considers the influence of the local far-ultraviolet radiation on the spin evolution of low mass stars. Our model includes an assumption of disc locking, which fixes the rotation rate during the star-disc-interaction phase, with the duration of this phase parametrized as a function of the local far-ultraviolet radiation and stellar mass (in the range of 0.1-1.3 M<SUB>☉</SUB>). In this way, we demonstrate how the feedback from massive stars can significantly influence the spin evolution of stars and explain the mass dependence observed in period-mass distributions of young regions like Upper Sco and NGC 2264. The high far-ultraviolet environments of high-mass stars can skew the period distribution of surrounding stars towards fast-rotation, explaining the excess of fast-rotating stars in the open cluster h Per. The proposed link between rotation and the pre-main-sequence environment opens new avenues for interpreting the rotational distributions of young stars. For example, we suggest that stellar rotation may be used as a tracer for the primordial ultraviolet irradiation for stars up to ~1 Gyr, which offers a potential method to connect mature planetary systems to their birth environment."
   },
   {
    "bibcode": "2021ApJ...912..127S",
@@ -809,7 +840,8 @@
    "arxiv": "2103.05675",
    "doctype": "article",
    "refereed": true,
-   "citations": 41
+   "citations": 41,
+   "abstract": "Understanding how the magnetic activity of low-mass stars depends on their fundamental parameters is an important goal of stellar astrophysics. Previous studies have shown that activity levels are largely determined by the stellar Rossby number, defined as the rotation period divided by the convective turnover time. However, we currently have little information on the role played by chemical composition. In this work, we investigate how metallicity affects magnetic activity, using photometric variability as an activity proxy. Similarly to other proxies, we demonstrate that the amplitude of photometric variability is well parameterized by the Rossby number, although in a more complex way. We also show that variability amplitude and metallicity are generally positively correlated. This trend can be understood in terms of the effect of metallicity on stellar structure, and hence the convective turnover time (or, equivalently, the Rossby number). Lastly, we demonstrate that the metallicity dependence of photometric variability results in a rotation-period detection bias, whereby the periods of metal-rich stars are more easily recovered for stars of a given mass."
   },
   {
    "bibcode": "2021A&A...649A..68S",
@@ -844,7 +876,8 @@
    "arxiv": "2103.16383",
    "doctype": "article",
    "refereed": true,
-   "citations": 17
+   "citations": 17,
+   "abstract": "Context. Classical T Tauri stars are young low-mass systems still accreting material from their disks. These systems are dynamic on timescales of hours to years. The observed variability can help us infer the physical processes that occur in the circumstellar environment. <BR /> Aims: In this work, we aim at understanding the dynamics of the magnetic interaction between the star and the inner accretion disk in young stellar objects. We present the case of the young stellar system V2129 Oph, which is a well-known T Tauri star with a K5 spectral type that is located in the ρ Oph star formation region at a distance of 130 ± 1 pc. <BR /> Methods: We performed a time series analysis of this star using high-resolution spectroscopic data at optical wavelengths from CFHT/ESPaDOnS and ESO/HARPS and at infrared wavelengths from CFHT/SPIRou. We also obtained simultaneous photometry from REM and ASAS-SN. The new data sets allowed us to characterize the accretion-ejection structure in this system and to investigate its evolution over a timescale of a decade via comparisons to previous observational campaigns. <BR /> Results: We measure radial velocity variations and recover a stellar rotation period of 6.53 days. However, we do not recover the stellar rotation period in the variability of various circumstellar lines, such as Hα and Hβ in the optical or HeI 10830 Å and Paβ in the infrared. Instead, we show that the optical and infrared line profile variations are consistent with a magnetospheric accretion scenario that shows variability with a period of about 6.0 days, shorter than the stellar rotation period. Additionally, we find a period of 8.5 days in Hα and Hβ lines, probably due to a structure located beyond the corotation radius, at a distance of ∼0.09 au. We investigate whether this could be accounted for by a wind component, twisted or multiple accretion funnel flows, or an external disturbance in the inner disk. <BR /> Conclusions: We conclude that the dynamics of the accretion-ejection process can vary significantly on a timescale of just a few years in this source, presumably reflecting the evolving magnetic field topology at the stellar surface. <P />Based on observations obtained at the Canada-France-Hawaii Telescope (CFHT), which is operated by the National Research Council (NRC) of Canada, the Institut National des Sciences de l'Univers of the Centre National de la Recherche Scientifique (CNRS) of France, and the University of Hawaii. Based on observations obtained with SPIRou, an international project led by the Institut de Recherche en Astrophysique et Planétologie, Toulouse, France. Based on observations collected at the European Southern Observatory under ESO program 2101.C-5015(A). Based on observations obtained with the robotic telescope REM, operated in Chile by the Italian institute INAF."
   },
   {
    "bibcode": "2021csss.confE.306R",
@@ -862,7 +895,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The vast majority of stars are formed in clustered environments. However, to date, most rotational evolution models still consider stars that form and evolve in isolation. In this talk, we will show results of a rotational evolution model that considers how the environment of open clusters can influence the rotational evolution of low mass stars. In particular, we looked at how the presence of massive stars influences the local far-ultraviolet radiation fields in clusters, altering the dissipation timescales of circumstellar disks due to external photoevaporation. Environmentally dependent disk-dissipation timescales directly impact the duration of the star-disk-interaction phase (sometimes called disk-locking phase), in which the star is expected to exchange angular momentum with its disk. By considering the rotational evolution of stars in clusters with varied massive star content, we show how the influence of neighbour massive stars in the disk-locking phase's duration can drastically change the rotational evolution of low mass stars. While modelling the rotational evolution of the low mass population of entire clusters, we show that the environmental influence introduces statistically relevant differences in the period distributions of clusters with varied massive content, which are already visible at ages as early as 3 Myrs and remain until early-MS ages."
   },
   {
    "bibcode": "2021csss.confE.200A",
@@ -881,7 +915,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "The spin-down of main sequence cool stars with time can be used as a tool to provide stellar ages under certain conditions. Large photometric surveys such as Kepler, TESS or even GAIA, thus relies on rotation period measurement to estimate the age of cool main sequence stars.Intriguingly, Davenport &amp; Covey (2018) discovered a sequence of cool slower-than-expected rotators in the HR diagram suggesting a deviation from classical gyrochronology from an unknown source.This year, Amard &amp; Matt (2020) and Claytor et al. (2020) showed that metal-rich stars are likely slower rotators on the main sequence due to being cooler and having thicker convective envelope.Using a compilation of mid-to-high resolution spectroscopic surveys of the Kepler field (LAMOST, APOGEE), we are now able to explore the effect of chemical composition on a population of rotating stars. Combined with Kepler and Gaia observations, and a grid of rotating stellar evolution model over a large range of mass and metallicity, this new sample allows us to reproduce the feature noticed by Davenport &amp; Covey (2018) and to a later extent to explore and constrain the link between chemical composition, mass, rotation and activity."
   },
   {
    "bibcode": "2021csss.confE..90S",
@@ -901,7 +936,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Understanding how the magnetic activity of low-mass stars depends on their fundamental parameters is an important goal of stellar astrophysics. Previous studies suggest that the stellar mass and rotation period both play important roles in determining the overall activity level of a star. However, we currently have little information on the role of metallicity. In this poster, we study how magnetic activity scales with stellar metallicity. Specifically, we use photometric variability as a proxy for magnetic activity. Using a sample of over 3000 low-mass stars, we demonstrate that, at fixed stellar mass and rotation, more metal-rich stars are generally more magnetically active."
   },
   {
    "bibcode": "2020MNRAS.499.3481A",
@@ -921,7 +957,7 @@
    "doctype": "article",
    "refereed": true,
    "citations": 55,
-   "abstract": "A curious rotation period distribution in the Color-Magnitude-Period Diagram (CMPD) of the Kepler field was recently revealed, thanks to data from Gaia and Kepler spacecraft. It was found that redder and brighter stars are spinning slower than the rest of the main sequence. On the theoretical side, it was demonstrated that metallicity should affect the rotational evolution of stars as well as their evolution in the Hertzprung-Rüssel or Color-Magnitude diagram. In this work we combine this dataset with medium and high resolution spectroscopic metallicities and carefully select main sequence single stars in a given mass range. We show that the structure seen in the CMPD also corresponds to a broad correlation between metallicity and rotation, such that stars with higher metallicity rotate on average more slowly than those with low metallicity. We compare this sample to theoretical rotational evolution models that include a range of different metallicities. They predict a correlation between rotation rate and metallicity that is in the same direction and of about the same magnitude as that observed. Therefore metallicity appears to be a key parameter to explain the observed rotation period distributions. We also discuss a few different ways in which metallicity can affect the observed distribution of rotation period, due to observational biases and age distributions, as well as the effect on stellar wind torques."
+   "abstract": "A curious rotation period distribution in the colour-magnitude-period diagram (CMPD) of the Kepler field was recently revealed, thanks to data from Gaia and Kepler spacecraft. It was found that redder and brighter stars are spinning slower than the rest of the main sequence. On the theoretical side, it was demonstrated that metallicity should affect the rotational evolution of stars as well as their evolution in the Hertzprung-Rüssel or colour-magnitude diagram. In this work, we combine this data set with medium- and high-resolution spectroscopic metallicities and carefully select main-sequence single stars in a given mass range. We show that the structure seen in the CMPD also corresponds to a broad correlation between metallicity and rotation, such that stars with higher metallicity rotate, on average, more slowly than those with low metallicity. We compare this sample to theoretical rotational evolution models that include a range of different metallicities. They predict a correlation between rotation rate and metallicity that is in the same direction and of about the same magnitude as that observed. Therefore, metallicity appears to be a key parameter to explain the observed rotation period distributions. We also discuss a few different ways in which metallicity can affect the observed distribution of rotation period, due to observational biases and age distributions, as well as the effect on stellar wind torques."
   },
   {
    "bibcode": "2020yCat..36400128R",
@@ -942,7 +978,8 @@
    "arxiv": null,
    "doctype": "dataset",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Parameters related to the variability characterization of pre-main sequence low-mass stars in the Cygnus OB2 Association (RA~308.25°, DE~41.2°). Variability characterization was based on the analysis of near-infrared JHK light-curves obtained with the WFCAM at the UKIRT telescope over 112 observed nights in 2007. Data include the light-curves of the 5083 stars analyzed. <P />(2 data files)."
   },
   {
    "bibcode": "2020A&A...640A.128R",
@@ -964,7 +1001,7 @@
    "doctype": "article",
    "refereed": true,
    "citations": 6,
-   "abstract": "We present the results of a J, H, and K photometric variability survey of the central 0.78 square degrees of the young OB association Cygnus OB2. We used data observed with the Wide-Field CAMera at the United Kingdom Infrared Telescope in 2007 (spanning 217 days) to investigate the light curves of 5083 low mass candidate members in the association and explore the occurrence and main characteristics of their near-infrared variability. We identified 2529 stars ($\\sim$50$\\%$ of the sample) with significant variability with time-scales ranging from days to months. We classified the variable stars into the following three groups according to their light curve morphology: periodic variability (1697 stars), occultation variability (124 stars), and other types of variability (726 stars). We verified that the disk-bearing stars in our sample are significantly more variable in the near-infrared than diskless stars, with a steep increase in the disk-fraction among stars with higher variability amplitude. We investigated the trajectories described by variable stars in the color-space and measured slopes for 335 stars describing linear trajectories. Based on the trajectories in the color-space, we inferred that the sample analyzed is composed of a mix of young stars presenting variability due to hot and cold spots, extinction by circumstellar material, and changes in the disk emission in the near-infrared. We contemplated using the use of near-infrared variability to identify disk-bearing stars and verified that 53.4$\\%$ of the known disk-bearing stars in our sample could have been identified as such based solely on their variability. We present 18 newly identified disk-bearing stars and 14 eclipsing binary candidates among CygOB2 lower-mass members."
+   "abstract": "We present the results of a J, H, and K photometric variability survey of the central 0.78 square degrees of the young OB association Cygnus OB2. We used data observed with the Wide-Field CAMera at the United Kingdom Infrared Telescope in 2007 (spanning 217 days) to investigate the light curves of 5083 low mass candidate members in the association and explore the occurrence and main characteristics of their near-infrared variability. We identified 2529 stars (∼50% of the sample) with significant variability with time-scales ranging from days to months. We classified the variable stars into the following three groups according to their light curve morphology: periodic variability (1697 stars), occultation variability (124 stars), and other types of variability (726 stars). We verified that the disk-bearing stars in our sample are significantly more variable in the near-infrared than diskless stars, with a steep increase in the disk-fraction among stars with higher variability amplitude. We investigated the trajectories described by variable stars in the color-space and measured slopes for 335 stars describing linear trajectories. Based on the trajectories in the color-space, we inferred that the sample analyzed is composed of a mix of young stars presenting variability due to hot and cold spots, extinction by circumstellar material, and changes in the disk emission in the near-infrared. We contemplated using the use of near-infrared variability to identify disk-bearing stars and verified that 53.4% of the known disk-bearing stars in our sample could have been identified as such based solely on their variability. We present 18 newly identified disk-bearing stars and 14 eclipsing binary candidates among CygOB2 lower-mass members. <P />Full Tables 1-5 and the light-curves of the stars analyzed in this study are only available at the CDS via anonymous ftp to <A href=\"http://cdsarc.u-strasbg.fr/\">http://cdsarc.u-strasbg.fr</A> (ftp://130.79.128.5) or via <A href=\"http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/640/A128\">http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/640/A128</A>"
   },
   {
    "bibcode": "2020IAUS..354..200R",
@@ -987,7 +1024,8 @@
    "arxiv": null,
    "doctype": "inproceedings",
    "refereed": false,
-   "citations": 2
+   "citations": 2,
+   "abstract": "Together with the stellar rotation, the spotted surfaces of low-mass magnetically active stars produce modulations in their brightness. These modulations can be resolved by photometric variability surveys, allowing direct measurements of stellar spin rates. In this proceedings, we present results of a multisite photometric survey dedicated to the measurement of spin rates in the 30 Myr cluster NGC 3766. Inside the framework of the Monitor Project, the cluster was monitored during 2014 in the i-band by the Wide Field Imager at the MPG/ESO 2.2-m telescope. Data from Gaia-DR2 and grizY photometry from DECam/CTIO were used to identify cluster members. We present spin rates measured for ∼200 cluster members."
   },
   {
    "bibcode": "2017A&A...603A.106R",
@@ -1009,7 +1047,7 @@
    "doctype": "article",
    "refereed": true,
    "citations": 17,
-   "abstract": "In the last decades, the early pre main sequence stellar rotational evolution picture has been constrained by studies targeting different young regions at a variety of ages. Observational studies suggest a mass-rotation dependence, and for some mass ranges a connection between rotation and the presence of a circumstellar disk. Not still fully explored, though, is the role of environmental conditions on the rotational regulation. We investigate the rotational properties of candidate members of the young massive association Cygnus OB2. The Stetson variability index, Lomb-Scargle periodogram, Saunders statistics, string/rope length method, and visual verification of folded light curves were applied to select 1224 periodic variable stars. Completeness and contamination of the periodic sample was derived from Monte Carlo simulations, out of which 894 periods were considered reliable. Our study was considered reasonably complete for periods from 2 to 30 days. The general rotational scenario seen in other young regions is confirmed by Cygnus OB2 period distributions, with disked stars rotating on average slower than non-disked stars. A mass-rotation dependence was also verified, but as in NGC 6530, lower mass stars are rotating on average slower than higher mass stars, with an excess of slow rotators among the lower mass population. The effect of the environment on the rotational properties of the association was investigated by re-analysing the results while taking into account the incident UV radiation arising from O stars in the association. Results compatible with the disk-locking scenario were verified for stars with low UV incidence, but no statistical significant relation between rotation and disk presence was verified for stars with high UV incidence suggesting that massive stars can have an important role on regulating the rotation of nearby low mass stars."
+   "abstract": "Context. In recent decades, the picture of early pre-main sequence stellar rotational evolution has been constrained by studies targeting different regions at a variety of ages with respect to young star formation. Observational studies suggest a dependence of rotation with mass, and for some mass ranges a connection between rotation and the presence of a circumstellar disk. The role of environmental conditions on the rotational regulation, however, has still not been fully explored. <BR /> Aims: We investigate the rotational properties of candidate members of the young massive association Cygnus OB2. By evaluating their rotational properties, we address questions regarding the effect of environment properties on PMS rotational evolution. <BR /> Methods: We studied JHK-band variability in 5083 candidate members (24% of them are disk-bearing stars). We selected variable stars with the Stetson variability index and performed the period search with the Lomb-Scargle periodogram for periods between 0.83-45 days. Period detections were verified using false alarm probability levels, Saunders statistics, the string and rope length method, and visual verification of folded light curves. <BR /> Results: We identified 1224 periodic variable stars (24% of the candidate member sample, 8% of the disk-bearing sample, and 28% of the non-disk-bearing sample). Monte Carlo simulations were performed in order to evaluate completeness and contamination of the periodic sample, out of which 894 measured periods were considered reliable. Our study was considered reasonably complete for periods between 2 and 30 days. <BR /> Conclusions: The general scenario for the rotational evolution of young stars seen in other regions is confirmed by Cygnus OB2 period distributions with disc-bearing stars rotating on average more slowly than non-disk-bearing stars. A mass-rotation dependence was also verified, but as in NGC 6530, very low mass stars (M ≤ 0.4 M<SUB>☉</SUB>) are rotating on average slower than higher mass stars (0.4M<SUB>☉</SUB>&lt;M ≤ 1.4 M<SUB>☉</SUB>). We observed an excess of slow rotators among the lower mass population. The disk and mass-rotation connection was also analyzed by taking into account the incident UV radiation arising from O stars in the association. Results compatible with the disk-locking scenario were verified for stars with low UV incidence, but no statistical significant relation between rotation and disk presence was verified for stars with high UV incidence suggesting that massive stars can have an important role in regulating the rotation of nearby low mass stars. <P />The full Table 1 is only available at the CDS via anonymous ftp to <A href=\"http://cdsarc.u-strasbg.fr\">http://cdsarc.u-strasbg.fr</A> (<A href=\"http://130.79.128.5\">http://130.79.128.5</A>) or via <A href=\"http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/603/A106\">http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/603/A106</A>"
   },
   {
    "bibcode": "2017yCat..36030106R",
@@ -1030,7 +1068,8 @@
    "arxiv": null,
    "doctype": "dataset",
    "refereed": false,
-   "citations": 0
+   "citations": 0,
+   "abstract": "Our observational dataset was obtained with the 3.8m United Kingdom Infra-Red Telescope (UKIRT), at Manua Kea, Hawaii, equipped with the Wide Field Camera (WFCAM); the programs were U/07A/H16 and U/07B/H60. Our complete dataset is composed of up to 115 nights observed using the J, H, and K filters (Hewett et al., 2006MNRAS.367..454H). The observations were carried during 2007 in two seasons: The first season comprises 43 observed nights between April 1 and May 21; the second season comprises 73 observed nights between August 4 and November 3. The two observational seasons span a total of 217 days. The exposures were short, 2 seconds in each filter. <P />Rotational periods for 894 Cygnus OB2 candidate members. For each star, an internal ID, IDs in Guarcello et al. (2013, Cat. J/ApJ/773/135) and Guarcello et al. (2015, arXiv:1501.03761), coordinates, Stetson variability index, period, estimated mass and reddening, median JHK magnitudes, median JHK photometric errors, peak-to- peak JHK amplitudes, and Disk class according to Guarcello et al. (2013, Cat. J/ApJ/773/135) ate presented. <P />(1 data file)."
   },
   {
    "bibcode": "2014A&A...567A.100A",
@@ -1099,7 +1138,8 @@
    "arxiv": "1405.4517",
    "doctype": "article",
    "refereed": true,
-   "citations": 33
+   "citations": 33,
+   "abstract": "Context. The Vista Variables in the Vía Láctea (VVV) ESO Public Survey is a variability survey of the Milky Way bulge and an adjacent section of the disk carried out from 2010 on ESO Visible and Infrared Survey Telescope for Astronomy (VISTA). The VVV survey will eventually deliver a deep near-IR atlas with photometry and positions in five passbands (ZYJHK<SUB>S</SUB>) and a catalogue of 1-10 million variable point sources - mostly unknown - that require classifications. <BR /> Aims: The main goal of the VVV Templates Project, which we introduce in this work, is to develop and test the machine-learning algorithms for the automated classification of the VVV light-curves. As VVV is the first massive, multi-epoch survey of stellar variability in the near-IR, the template light-curves that are required for training the classification algorithms are not available. In the first paper of the series we describe the construction of this comprehensive database of infrared stellar variability. <BR /> Methods: First, we performed a systematic search in the literature and public data archives; second, we coordinated a worldwide observational campaign; and third, we exploited the VVV variability database itself on (optically) well-known stars to gather high-quality infrared light-curves of several hundreds of variable stars. <BR /> Results: We have now collected a significant (and still increasing) number of infrared template light-curves. This database will be used as a training-set for the machine-learning algorithms that will automatically classify the light-curves produced by VVV. The results of such an automated classification will be covered in forthcoming papers of the series."
   }
  ]
 }
