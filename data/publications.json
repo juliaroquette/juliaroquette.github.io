@@ -1,6 +1,6 @@
 {
  "source": "https://ui.adsabs.harvard.edu/public-libraries/8JBeznfWQmWUeiV-poEimw",
- "updated": "2026-11-02",
+ "updated": "2026-11-09",
  "papers": [
   {
    "bibcode": "2026arXiv260931109M",
@@ -73,7 +73,7 @@
    "arxiv": "2503.23530",
    "doctype": "article",
    "refereed": true,
-   "citations": 4,
+   "citations": 5,
    "abstract": "Context. Photometric variability is a defining characteristic of young stellar objects (YSOs) that can be traced back to a range of physical processes that occur at different stages in the formation and early evolution of young stars. The Gaia third Data Release (GDR3) has provided an unprecedented dataset of photometric time series, including 79 375 light curves for sources classified as YSO candidates. Through its all-sky coverage, Gaia provides a unique opportunity for large-scale studies of YSO variability. Aims. Our goal was to characterise the GDR3 sample of YSO variables to better identify the recurrence of YSO variability modes (caused by accretion, extinction, rotation modulation, etc.). We made a pilot study of the applicability of the asymmetry (M) and periodicity (Q) variability metrics to characterise YSO variability with Gaia light curves. By adapting the Q-M metrics for sparse and long-term light curves, we sought to bridge the gap between low- and high-cadence survey insights on YSO variability. Methods. We adapted the Q-M method for Gaia. Through a refined sample selection, we identified sources with an appropriate sampling for the Q-M method. We used the generalised Lomb Scargle periodogram and structure functions to derive characteristic variability timescales. Results. We successfully derived Q-M indices for 23 000 sources in the GDR3 YSO sample. These variables were then classified into eight variability morphological classes. We linked the morphological classes with physical mechanisms using Hα as a proxy of accretion and α<SUB>IR</SUB> indices to gauge whether circumstellar material was present. Conclusions. We demonstrate that the Q-M metrics can be successfully applied to study the sparse time series of Gaia. We applied it successfully to distinguish between the various variability modes of YSOs. While our results are generally consistent with previous high-cadence short-term studies, the long GDR3 time span yields a larger variety of variability mechanisms."
   },
   {
@@ -98,7 +98,7 @@
    "arxiv": "2501.08486",
    "doctype": "article",
    "refereed": true,
-   "citations": 12,
+   "citations": 13,
    "abstract": "Context. The past decade has seen a rise in the use of machine learning methods in the study of young stellar evolution. This trend has led to a growing need for a comprehensive database of young stellar objects (YSOs) that goes beyond survey-specific biases and can be employed for training, validating, and refining the physical interpretation of machine learning outcomes. Aims. We aim to review the literature focussed on the Orion star formation complex (OSFC) to compile a thorough catalogue of previously identified YSO candidates in the region, including the curation of observables relevant to probing their youth. Methods. Starting from the NASA/ADS database, we assembled YSO candidates from more than 200 peer-reviewed publications targeting the OSFC. We collated data products relevant to the study of young stars into a dedicated catalogue, which was complemented with data from large photometric and spectroscopic surveys as well as the Strasbourg Astronomical Data Center. We also added significant value to the catalogue by homogeneously deriving YSO infrared classification labels and through a comprehensive curation of labels concerning the sources' multiplicity. Finally, we used a panchromatic approach to derive the probabilities of the candidate YSOs in our catalogue being contaminant extragalactic sources or giant stars. Results. We present the NEMESIS catalogue of YSOs for the OSFC, which includes data collated for 27 879 sources covering the whole mass spectrum and the various stages of pre-main sequence evolution from protostars to disc-less young stars. The catalogue includes a large collection of panchromatic photometric data processed into spectral energy distributions, stellar parameters (T<SUB>eff</SUB>, T<SUB>bol</SUB>, spectral types, log ɡ, υ sin i, and RV), infrared classes, equivalent widths of emission lines related to YSO accretion and star-disc interaction, and absorption lines such as lithium and lines related to the source's gravity, X-ray emission observables, photometric variability observables (e.g. variability periods and amplitudes), and multiplicity labels."
   },
   {
@@ -230,7 +230,7 @@
    "arxiv": "2405.00779",
    "doctype": "article",
    "refereed": true,
-   "citations": 22,
+   "citations": 23,
    "abstract": "In recent years, there has been a push to understand how chemical composition affects the magnetic activity levels of main sequence low-mass stars. Results indicate that more metal-rich stars are more magnetically active for a given stellar mass and rotation period. This metallicity dependence has implications for how the rotation periods and activity levels of low-mass stars evolve over their lifetimes. Numerical modelling suggests that at late ages more metal-rich stars should be rotating more slowly and be more magnetically active. In this work, we study the rotation and activity evolution of low-mass stars using a sample of Kepler field stars. We use the gyro-kinematic age dating technique to estimate ages for our sample and use the photometric activity index as our proxy for magnetic activity. We find clear evidence that, at late ages, more metal-rich stars have spun down to slower rotation in agreement with the theoretical modelling. However, further investigation is required to definitively determine whether the magnetic activity evolution occurs in a metallicity dependent way."
   },
   {
@@ -256,7 +256,7 @@
    "arxiv": "2406.03116",
    "doctype": "article",
    "refereed": true,
-   "citations": 26,
+   "citations": 22,
    "abstract": "Context. Herschel operated as an observatory, and therefore it did not cover the whole sky, but still observed ~8% of it. The first version of an overall Herschel/PACS Point Source Catalogue (PSC) was released in 2017. The data are still unique and are very important for research using far-infrared information, especially because no new far-infrared mission is foreseen for at least the next decade. In the framework of the NEMESIS project, we revisited all the photometric observations obtained by the PACS instrument on-board the Herschel space observatory, using more advanced techniques than before, including machine learning techniques. <BR /> Aims: Our aim was to build the most complete and most accurate Herschel/PACS catalogue to date. Our primary goal was to increase the number of real sources, and decrease the number of spurious sources identified on a strongly variable background, which is due to the thermal emission of the interstellar dust, mostly located in star-forming regions. Our goal was to build a blind catalogue, meaning that source extraction is conducted without relying on prior detections at various wavelengths, allowing us to detect sources never catalogued before. <BR /> Methods: The methods for data analysis have evolved continuously since the first release of a uniform Herschel/PACS catalogue. We define a hybrid strategy that includes classical and machine learning source identification and characterisation methods that optimise faint-source detection, providing catalogues at much higher completeness levels than before. Quality assessment also involves machine learning techniques. Our source extraction methodology facilitates a systematic and impartial comparison of sensitivity levels across various Herschel fields, a task that was typically beyond the scope of individual programmes. <BR /> Results: We created a high-reliability and a rejected source catalogue for each PACS passband: 70, 100, and 160 μm. With the high-reliability catalogue, we managed to significantly increase the completeness in all bands, especially at 70 μm. At the same time, while the number of high-reliability detections decreased, the number of sources matching with existing catalogues increased, suggesting that the purity is also higher than before. The photometric accuracy of our pipeline is ~1% based on comparison with the standard star models. <P />A copy of the catalog is available at the CDS via anonymous ftp to <A href=\"https://cdsarc.cds.unistra.fr\">cdsarc.cds.unistra.fr</A> (ftp://130.79.128.5) or via <A href=\"https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/688/A203\">https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/688/A203</A>"
   },
   {
@@ -436,7 +436,7 @@
    "arxiv": "2307.01688",
    "doctype": "article",
    "refereed": true,
-   "citations": 18,
+   "citations": 19,
    "abstract": "The magnetic activity level of low-mass stars is known to vary as a function of the physical properties of the star. Many studies have shown that the stellar mass and rotation are both important parameters that determine magnetic activity levels. In contrast, the impact of a star's chemical composition on magnetic activity has received comparatively little attention. Data sets for traditional activity proxies, e.g. X-ray emission or calcium emission, are not large enough to search for metallicity trends in a statistically meaningful way. Recently, studies have used the photometric variability amplitude as a proxy for magnetic activity to investigate the role of metallicity because it can be relatively easily measured for large samples of stars. These studies find that magnetic activity and metallicity are positively correlated. In this work, we investigate the link between activity and metallicity further by studying the flaring properties of stars in the Kepler field. Similar to the photometric variability, we find that flaring activity is stronger in more metal-rich stars for a fixed mass and rotation period. This result adds to a growing body of evidence that magnetic field generation is correlated with metallicity."
   },
   {
@@ -840,7 +840,7 @@
    "arxiv": "2103.05675",
    "doctype": "article",
    "refereed": true,
-   "citations": 42,
+   "citations": 43,
    "abstract": "Understanding how the magnetic activity of low-mass stars depends on their fundamental parameters is an important goal of stellar astrophysics. Previous studies have shown that activity levels are largely determined by the stellar Rossby number, defined as the rotation period divided by the convective turnover time. However, we currently have little information on the role played by chemical composition. In this work, we investigate how metallicity affects magnetic activity, using photometric variability as an activity proxy. Similarly to other proxies, we demonstrate that the amplitude of photometric variability is well parameterized by the Rossby number, although in a more complex way. We also show that variability amplitude and metallicity are generally positively correlated. This trend can be understood in terms of the effect of metallicity on stellar structure, and hence the convective turnover time (or, equivalently, the Rossby number). Lastly, we demonstrate that the metallicity dependence of photometric variability results in a rotation-period detection bias, whereby the periods of metal-rich stars are more easily recovered for stars of a given mass."
   },
   {
